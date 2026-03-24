@@ -1,6 +1,6 @@
 # 📊 Portfolio Simulator
 
-4개 테마 포트폴리오에 각 1,000만원을 가상 투자하고, 매일 수익률을 자동 수집하며 학습하는 투자 시뮬레이션 플랫폼입니다.
+8개 테마 포트폴리오에 각 1,000만원을 가상 투자하고, 매일 수익률을 자동 수집하며 학습하는 투자 시뮬레이션 플랫폼입니다.
 
 > ⚠️ 이 프로젝트는 **투자 학습 목적의 가상 시뮬레이션**입니다. 실제 투자 판단의 근거로 사용하지 마세요.
 
@@ -12,6 +12,10 @@
 | B | 금·원자재·식품 | GLD, SLV, PDBC, NEM, WPM |
 | C | 바이오·헬스케어 | IBB, XBI, XLV, LLY, NVO |
 | D | 에너지 | XLE, VDE, XOP, URA, CEG |
+| E | 방산·우주·사이버보안 | ITA, SHLD, XAR, HACK, LMT |
+| F | 금융·핀테크 | XLF, VFH, KRE, FINX, JPM |
+| G | 중국·신흥국 | MCHI, KWEB, FXI, EEM, BABA |
+| H | 소비재·경기순환 | XLY, XLP, VCR, IBUY, AMZN |
 
 ## 기술 스택
 
@@ -88,7 +92,7 @@ Stock_simul/
 ├── .github/workflows/
 │   └── daily_update.yml    # 매일 UTC 23:00 자동 실행
 ├── scripts/
-│   ├── config.py           # 포트폴리오 A~D 구성 데이터
+│   ├── config.py           # 포트폴리오 A~H 구성 데이터
 │   ├── init_sheets.py      # 최초 1회: Sheets 탭 초기화
 │   ├── collect_prices.py   # yfinance 주가·환율 수집
 │   ├── calculate_metrics.py # MDD·변동성·샤프·베타 계산
@@ -101,6 +105,10 @@ Stock_simul/
 │   ├── portfolio_b.html    # 금·원자재 상세
 │   ├── portfolio_c.html    # 바이오 상세
 │   ├── portfolio_d.html    # 에너지 상세
+│   ├── portfolio_e.html    # 방산·우주·사이버보안 상세
+│   ├── portfolio_f.html    # 금융·핀테크 상세
+│   ├── portfolio_g.html    # 중국·신흥국 상세
+│   ├── portfolio_h.html    # 소비재·경기순환 상세
 │   └── data/
 │       └── dashboard_data.json  # 매일 자동 갱신
 └── requirements.txt
