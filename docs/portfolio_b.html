@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio A — 금·원자재·식품</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg: #0f1117; --surface: #1a1d27; --border: #2a2d3e;
+      --text: #e2e8f0; --muted: #94a3b8; --green: #22c55e; --red: #ef4444; --blue: #3b82f6;
+      --accent: #f59e0b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; }
+    header { padding: 1.2rem 2rem; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+    .back { color: var(--muted); text-decoration: none; font-size: 0.85rem; }
+    .back:hover { color: var(--text); }
+    .portfolio-id { background: #f59e0b20; color: var(--accent); border-radius: 8px; padding: 0.3rem 0.7rem; font-weight: 700; }
+    header h1 { font-size: 1.2rem; font-weight: 700; }
+    main { padding: 2rem; max-width: 1200px; margin: 0 auto; }
+    section { margin-bottom: 2.5rem; }
+    h2 { font-size: 0.9rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; }
+    .overview { display: grid; grid-template-columns: 260px 1fr; gap: 1.5rem; }
+    .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-bottom: 0.4rem; }
+    .stat-value { font-size: 2rem; font-weight: 700; }
+    .stat-return { font-size: 1.2rem; font-weight: 600; margin-top: 0.25rem; }
+    .stat-pnl { font-size: 0.9rem; color: var(--muted); margin-top: 0.25rem; }
+    .chart-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; }
+    .period-btns { display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
+    .period-btn { background: var(--border); border: none; color: var(--muted); padding: 0.3rem 0.8rem; border-radius: 6px; cursor: pointer; font-size: 0.8rem; }
+    .period-btn.active, .period-btn:hover { background: var(--accent); color: #fff; }
+    canvas { max-height: 280px; }
+    .table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: auto; margin-bottom: 1rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+    th { padding: 0.7rem 1rem; text-align: left; color: var(--muted); font-weight: 500; border-bottom: 1px solid var(--border); white-space: nowrap; }
+    td { padding: 0.7rem 1rem; border-bottom: 1px solid var(--border); }
+    tr:last-child td { border-bottom: none; }
+    .metrics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; }
+    .metric-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1rem; }
+    .metric-label { font-size: 0.75rem; color: var(--muted); margin-bottom: 0.4rem; }
+    .metric-value { font-size: 1.3rem; font-weight: 700; }
+    .news-list { display: flex; flex-direction: column; gap: 0.75rem; }
+    .news-item { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1rem; }
+    .news-meta { font-size: 0.75rem; color: var(--muted); margin-bottom: 0.35rem; }
+    .news-title a { color: var(--text); text-decoration: none; font-size: 0.875rem; line-height: 1.4; }
+    .news-title a:hover { color: var(--blue); }
+    .tag-etf { background: #3b82f620; color: #60a5fa; border-radius: 4px; padding: 0.1rem 0.4rem; font-size: 0.7rem; }
+    .tag-ind { background: #f9731620; color: #fb923c; border-radius: 4px; padding: 0.1rem 0.4rem; font-size: 0.7rem; }
+    .pos { color: var(--green); } .neg { color: var(--red); }
+    .loading { color: var(--muted); padding: 2rem; text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="back" href="index.html">← 비교 대시보드</a>
+    <span class="portfolio-id">B</span>
+    <h1 id="portfolioName">금·원자재·식품</h1>
+    <span style="color:var(--muted);font-size:0.8rem;" id="updatedAt"></span>
+  </header>
+
+  <main>
+    <section>
+      <div class="overview">
+        <div class="stat-card">
+          <div class="stat-label">평가금액</div>
+          <div class="stat-value" id="valueKRW">—</div>
+          <div class="stat-return pos" id="returnPct">—</div>
+          <div class="stat-pnl" id="pnlKRW">—</div>
+        </div>
+        <div class="chart-card">
+          <div class="period-btns">
+            <button class="period-btn" data-days="7">1W</button>
+            <button class="period-btn" data-days="30">1M</button>
+            <button class="period-btn" data-days="90">3M</button>
+            <button class="period-btn" data-days="180">6M</button>
+            <button class="period-btn active" data-days="0">전체</button>
+          </div>
+          <canvas id="portfolioChart"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>핵심 ETF (80%)</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>티커</th><th>종목명</th><th>비중</th><th>수익률</th><th>손익</th></tr></thead>
+          <tbody id="etfBody"><tr><td colspan="5" class="loading">로딩 중...</td></tr></tbody>
+        </table>
+      </div>
+      <h2>주목 개별주 (20%) ⚠️ 고위험</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>티커</th><th>종목명</th><th>비중</th><th>수익률</th><th>손익</th></tr></thead>
+          <tbody id="indBody"><tr><td colspan="5" class="loading">로딩 중...</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>상세 분석 지표</h2>
+      <div class="metrics-grid" id="metricsGrid"></div>
+    </section>
+
+    <section>
+      <h2>관련 뉴스</h2>
+      <div class="news-list" id="newsList"><div class="loading">로딩 중...</div></div>
+    </section>
+  </main>
+
+  <script>
+    const PORTFOLIO_ID = 'B';
+    const DATA_URL = 'data/dashboard_data.json';
+    const ACCENT = '#f59e0b';
+
+    let fullHistory = [];
+    let chartInstance = null;
+
+    function fmt(n, d = 2) { return Number(n).toFixed(d); }
+    function sign(n) { return Number(n) >= 0 ? '+' : ''; }
+    function cls(n) { return Number(n) >= 0 ? 'pos' : 'neg'; }
+    function fmtKRW(n) { const v = Number(n); return (v >= 0 ? '+' : '') + (Math.abs(v) >= 10000 ? (v / 10000).toFixed(1) + '만원' : v.toLocaleString() + '원'); }
+    function absKRW(n) { const v = Number(n); return Math.abs(v) >= 10000 ? (v / 10000).toFixed(1) + '만원' : v.toLocaleString() + '원'; }
+
+    function renderOverview(p) {
+      document.getElementById('portfolioName').textContent = p.name;
+      document.getElementById('valueKRW').textContent = absKRW(p.value_krw);
+      const ret = Number(p.return_pct);
+      document.getElementById('returnPct').textContent = `${sign(ret)}${fmt(ret)}%`;
+      document.getElementById('returnPct').className = 'stat-return ' + cls(ret);
+      document.getElementById('pnlKRW').textContent = fmtKRW(p.pnl_krw);
+      document.getElementById('pnlKRW').className = 'stat-pnl ' + cls(p.pnl_krw);
+    }
+
+    function filterHistory(days) {
+      if (!days) return fullHistory;
+      const cutoff = new Date();
+      cutoff.setDate(cutoff.getDate() - days);
+      return fullHistory.filter(h => new Date(h.date) >= cutoff);
+    }
+
+    function renderChart(days) {
+      const hist = filterHistory(days);
+      const labels = hist.map(h => h.date);
+      const values = hist.map(h => ((h.value - 10000000) / 10000000 * 100).toFixed(2));
+      const ctx = document.getElementById('portfolioChart').getContext('2d');
+      if (chartInstance) chartInstance.destroy();
+      chartInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels,
+          datasets: [{
+            label: '누적 수익률 (%)',
+            data: values,
+            borderColor: ACCENT,
+            backgroundColor: ACCENT + '18',
+            fill: true,
+            borderWidth: 2,
+            pointRadius: 0,
+            tension: 0.1,
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { display: false },
+            tooltip: { callbacks: { label: c => ` ${sign(c.parsed.y)}${c.parsed.y}%` } }
+          },
+          scales: {
+            x: { ticks: { color: '#64748b', maxTicksLimit: 8 }, grid: { color: '#1e293b' } },
+            y: { ticks: { color: '#64748b', callback: v => sign(v) + v + '%' }, grid: { color: '#1e293b' } }
+          }
+        }
+      });
+    }
+
+    function renderHoldings(holdings) {
+      const etf = holdings.filter(h => h.category === 'etf');
+      const ind = holdings.filter(h => h.category === 'individual');
+      function rows(list) {
+        return list.map(h => `
+          <tr>
+            <td><strong>${h.ticker}</strong></td>
+            <td>${h.name}</td>
+            <td>${(h.weight * 100).toFixed(0)}%</td>
+            <td class="${cls(h.return_pct)}">${sign(h.return_pct)}${fmt(h.return_pct)}%</td>
+            <td class="${cls(h.pnl_krw)}">${fmtKRW(h.pnl_krw)}</td>
+          </tr>`).join('');
+      }
+      document.getElementById('etfBody').innerHTML = rows(etf) || '<tr><td colspan="5">데이터 없음</td></tr>';
+      document.getElementById('indBody').innerHTML = rows(ind) || '<tr><td colspan="5">데이터 없음</td></tr>';
+    }
+
+    function renderMetrics(m) {
+      const items = [
+        { label: '누적 수익률', value: `${sign(m.cum_return)}${fmt(m.cum_return)}%`, cls: cls(m.cum_return) },
+        { label: 'MDD (최대 낙폭)', value: `${fmt(m.mdd)}%`, cls: 'neg' },
+        { label: '연간 변동성', value: `${fmt(m.volatility)}%`, cls: '' },
+        { label: '샤프지수', value: fmt(m.sharpe), cls: Number(m.sharpe) >= 1 ? 'pos' : '' },
+        { label: '베타 (vs SPY)', value: fmt(m.beta), cls: '' },
+      ];
+      document.getElementById('metricsGrid').innerHTML = items.map(i => `
+        <div class="metric-card">
+          <div class="metric-label">${i.label}</div>
+          <div class="metric-value ${i.cls}">${i.value}</div>
+        </div>`).join('');
+    }
+
+    function renderNews(news) {
+      const el = document.getElementById('newsList');
+      if (!news || !news.length) { el.innerHTML = '<div class="loading">뉴스 없음</div>'; return; }
+      el.innerHTML = news.slice(0, 10).map(n => `
+        <div class="news-item">
+          <div class="news-meta"><strong>${n.ticker}</strong> · ${n.source} · ${n.date}</div>
+          <div class="news-title"><a href="${n.url}" target="_blank" rel="noopener">${n.title}</a></div>
+        </div>`).join('');
+    }
+
+    async function main() {
+      const res = await fetch(DATA_URL + '?t=' + Date.now()).catch(() => null);
+      if (!res || !res.ok) { document.querySelector('main').innerHTML = '<div class="loading">데이터를 불러올 수 없습니다.</div>'; return; }
+      const data = await res.json();
+      document.getElementById('updatedAt').textContent = `업데이트: ${data.date || ''}`;
+
+      const p = data.portfolios?.[PORTFOLIO_ID];
+      if (!p) { document.querySelector('main').innerHTML = '<div class="loading">포트폴리오 데이터 없음</div>'; return; }
+
+      fullHistory = p.history || [];
+      renderOverview(p);
+      renderChart(0);
+      renderHoldings(p.holdings || []);
+      renderMetrics(p.metrics || {});
+      renderNews(p.news || []);
+
+      // Period buttons
+      document.querySelectorAll('.period-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.period-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          renderChart(parseInt(btn.dataset.days));
+        });
+      });
+    }
+
+    main();
+  </script>
+</body>
+</html>

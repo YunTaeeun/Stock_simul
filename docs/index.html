@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Simulator — 비교 대시보드</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3e;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --green: #22c55e;
+      --red: #ef4444;
+      --blue: #3b82f6;
+      --A: #6366f1;
+      --B: #f59e0b;
+      --C: #10b981;
+      --D: #f97316;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; min-height: 100vh; }
+    header { padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    header h1 { font-size: 1.4rem; font-weight: 700; }
+    .updated { color: var(--muted); font-size: 0.85rem; }
+    main { padding: 2rem; max-width: 1400px; margin: 0 auto; }
+    section { margin-bottom: 2.5rem; }
+    h2 { font-size: 1rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; }
+
+    /* Portfolio Cards */
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem; cursor: pointer; transition: border-color 0.2s; text-decoration: none; color: inherit; display: block; }
+    .card:hover { border-color: var(--blue); }
+    .card-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; }
+    .badge { width: 28px; height: 28px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.8rem; flex-shrink: 0; }
+    .badge-A { background: #6366f120; color: var(--A); }
+    .badge-B { background: #f59e0b20; color: var(--B); }
+    .badge-C { background: #10b98120; color: var(--C); }
+    .badge-D { background: #f9731620; color: var(--D); }
+    .card-name { font-size: 0.85rem; color: var(--muted); }
+    .card-value { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.25rem; }
+    .card-return { font-size: 1rem; font-weight: 600; }
+    .card-pnl { font-size: 0.8rem; color: var(--muted); margin-top: 0.25rem; }
+    .pos { color: var(--green); }
+    .neg { color: var(--red); }
+
+    /* Chart */
+    .chart-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; }
+    canvas { max-height: 320px; }
+
+    /* Metrics Table */
+    .table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+    th { padding: 0.75rem 1rem; text-align: left; color: var(--muted); font-weight: 500; border-bottom: 1px solid var(--border); white-space: nowrap; }
+    td { padding: 0.75rem 1rem; border-bottom: 1px solid var(--border); }
+    tr:last-child td { border-bottom: none; }
+
+    /* News */
+    .news-list { display: flex; flex-direction: column; gap: 0.75rem; }
+    .news-item { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1rem; }
+    .news-meta { font-size: 0.75rem; color: var(--muted); margin-bottom: 0.35rem; }
+    .news-title { font-size: 0.875rem; line-height: 1.4; }
+    .news-title a { color: var(--text); text-decoration: none; }
+    .news-title a:hover { color: var(--blue); }
+
+    .loading { color: var(--muted); padding: 2rem; text-align: center; }
+    .error { color: var(--red); padding: 2rem; text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>📊 Portfolio Simulator</h1>
+      <div class="updated" id="updated">데이터 로딩 중...</div>
+    </div>
+    <div style="color:var(--muted);font-size:0.8rem;">가상 투자 시뮬레이션 · 실제 투자 아님</div>
+  </header>
+
+  <main>
+    <section>
+      <h2>포트폴리오 현황</h2>
+      <div class="cards" id="cards"><div class="loading">로딩 중...</div></div>
+    </section>
+
+    <section>
+      <h2>누적 수익률 비교</h2>
+      <div class="chart-wrap">
+        <canvas id="returnChart"></canvas>
+      </div>
+    </section>
+
+    <section>
+      <h2>분석 지표 비교</h2>
+      <div class="table-wrap">
+        <table id="metricsTable">
+          <thead>
+            <tr>
+              <th>포트폴리오</th>
+              <th>누적 수익률</th>
+              <th>MDD</th>
+              <th>연간 변동성</th>
+              <th>샤프지수</th>
+              <th>베타 (vs SPY)</th>
+            </tr>
+          </thead>
+          <tbody id="metricsBody"><tr><td colspan="6" class="loading">로딩 중...</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>오늘의 주요 뉴스</h2>
+      <div class="news-list" id="newsList"><div class="loading">로딩 중...</div></div>
+    </section>
+  </main>
+
+  <script>
+    const DATA_URL = 'data/dashboard_data.json';
+    const PORTFOLIO_PAGES = { A: 'portfolio_a.html', B: 'portfolio_b.html', C: 'portfolio_c.html', D: 'portfolio_d.html' };
+    const COLORS = { A: '#6366f1', B: '#f59e0b', C: '#10b981', D: '#f97316' };
+
+    function fmt(n, digits = 2) { return Number(n).toFixed(digits); }
+    function sign(n) { return n >= 0 ? '+' : ''; }
+    function colorClass(n) { return Number(n) >= 0 ? 'pos' : 'neg'; }
+    function fmtKRW(n) { return Math.abs(n) >= 10000 ? (n / 10000).toFixed(1) + '만원' : n.toLocaleString() + '원'; }
+
+    async function loadData() {
+      try {
+        const res = await fetch(DATA_URL + '?t=' + Date.now());
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return await res.json();
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function renderCards(portfolios) {
+      const el = document.getElementById('cards');
+      el.innerHTML = Object.entries(portfolios).map(([id, p]) => {
+        const ret = Number(p.return_pct);
+        const pnl = Number(p.pnl_krw);
+        return `
+          <a class="card" href="${PORTFOLIO_PAGES[id] || '#'}">
+            <div class="card-header">
+              <div class="badge badge-${id}">${id}</div>
+              <div class="card-name">${p.name}</div>
+            </div>
+            <div class="card-value">${fmtKRW(p.value_krw)}</div>
+            <div class="card-return ${colorClass(ret)}">${sign(ret)}${fmt(ret)}%</div>
+            <div class="card-pnl ${colorClass(pnl)}">${sign(pnl)}${fmtKRW(pnl)}</div>
+          </a>`;
+      }).join('');
+    }
+
+    function renderChart(portfolios) {
+      const ctx = document.getElementById('returnChart').getContext('2d');
+      const datasets = Object.entries(portfolios).map(([id, p]) => ({
+        label: `${id} ${p.name}`,
+        data: (p.history || []).map(h => ({ x: h.date, y: ((h.value - 10000000) / 10000000 * 100).toFixed(2) })),
+        borderColor: COLORS[id],
+        backgroundColor: 'transparent',
+        borderWidth: 2,
+        pointRadius: 0,
+        tension: 0.1,
+      }));
+
+      new Chart(ctx, {
+        type: 'line',
+        data: { datasets },
+        options: {
+          responsive: true,
+          interaction: { mode: 'index', intersect: false },
+          plugins: {
+            legend: { labels: { color: '#94a3b8', boxWidth: 12 } },
+            tooltip: {
+              callbacks: {
+                label: ctx => ` ${ctx.dataset.label}: ${sign(ctx.parsed.y)}${ctx.parsed.y}%`
+              }
+            }
+          },
+          scales: {
+            x: { type: 'category', ticks: { color: '#64748b', maxTicksLimit: 10 }, grid: { color: '#1e293b' } },
+            y: {
+              ticks: { color: '#64748b', callback: v => sign(v) + v + '%' },
+              grid: { color: '#1e293b' },
+            }
+          }
+        }
+      });
+    }
+
+    function renderMetrics(portfolios) {
+      const tbody = document.getElementById('metricsBody');
+      tbody.innerHTML = Object.entries(portfolios).map(([id, p]) => {
+        const m = p.metrics || {};
+        const ret = Number(m.cum_return || 0);
+        const mdd = Number(m.mdd || 0);
+        return `<tr>
+          <td><span style="color:${COLORS[id]};font-weight:600;">${id}</span> ${p.name}</td>
+          <td class="${colorClass(ret)}">${sign(ret)}${fmt(ret)}%</td>
+          <td class="neg">${fmt(mdd)}%</td>
+          <td>${fmt(m.volatility || 0)}%</td>
+          <td>${fmt(m.sharpe || 0)}</td>
+          <td>${fmt(m.beta || 0)}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    function renderNews(portfolios) {
+      const el = document.getElementById('newsList');
+      const allNews = [];
+      Object.entries(portfolios).forEach(([id, p]) => {
+        (p.news || []).forEach(n => allNews.push({ ...n, portfolio_id: id, portfolio_name: p.name }));
+      });
+      if (!allNews.length) {
+        el.innerHTML = '<div class="loading">뉴스 없음</div>';
+        return;
+      }
+      // Deduplicate by URL
+      const seen = new Set();
+      const unique = allNews.filter(n => { if (seen.has(n.url)) return false; seen.add(n.url); return true; });
+      el.innerHTML = unique.slice(0, 15).map(n => `
+        <div class="news-item">
+          <div class="news-meta">
+            <span style="color:${COLORS[n.portfolio_id]};">[${n.portfolio_id}] ${n.ticker}</span>
+            · ${n.source} · ${n.date}
+          </div>
+          <div class="news-title"><a href="${n.url}" target="_blank" rel="noopener">${n.title}</a></div>
+        </div>`).join('');
+    }
+
+    async function main() {
+      const data = await loadData();
+      if (!data) {
+        document.getElementById('cards').innerHTML = '<div class="error">데이터를 불러올 수 없습니다. GitHub Actions 실행 후 다시 확인해주세요.</div>';
+        return;
+      }
+
+      document.getElementById('updated').textContent = `마지막 업데이트: ${data.date || ''} · USD/KRW ${Number(data.usd_krw || 0).toFixed(0)}`;
+
+      const portfolios = data.portfolios || {};
+      renderCards(portfolios);
+      renderChart(portfolios);
+      renderMetrics(portfolios);
+      renderNews(portfolios);
+    }
+
+    main();
+  </script>
+</body>
+</html>
