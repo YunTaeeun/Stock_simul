@@ -57,7 +57,7 @@ def fetch_fx_rate() -> float:
     """Fetch USD/KRW exchange rate."""
     print("Fetching USD/KRW exchange rate...")
     data = yf.download("USDKRW=X", period="5d", auto_adjust=True, progress=False)
-    close = data["Close"].dropna()
+    close = data["Close"].squeeze().dropna()
     if close.empty:
         raise ValueError("Could not fetch USD/KRW rate.")
     rate = round(float(close.iloc[-1]), 2)

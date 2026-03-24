@@ -146,7 +146,7 @@ def fetch_benchmark_returns(prices_df: pd.DataFrame) -> pd.Series:
         return prices_df[BENCHMARK_TICKER].pct_change().fillna(0)
     # Fallback: fetch from yfinance
     spy = yf.download(BENCHMARK_TICKER, period="1y", auto_adjust=True, progress=False)
-    return spy["Close"].pct_change().fillna(0)
+    return spy["Close"].squeeze().pct_change().fillna(0)
 
 
 def main() -> None:
