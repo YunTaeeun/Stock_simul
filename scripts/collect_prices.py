@@ -56,19 +56,11 @@ def fetch_prices(tickers: list[str]) -> dict[str, float]:
 def fetch_fx_rate() -> float:
     """Fetch USD/KRW exchange rate."""
     print("Fetching USD/KRW exchange rate...")
-    data = yf.download("USDKRW=X", period="5d", auto_adjust=True, progress=False)
-    close = data["Close"]
-    # yfinance may return a DataFrame (single-column) or Series depending on version
-    if isinstance(close, pd.DataFrame):
-        close = close.iloc[:, 0]
-    close = close.dropna()
+    data = yf.download("USDKRW=X", period="5d", auto_adjust=True, progress=False, multi_level_index=False)
+    close = data["Close"].dropna()
     if close.empty:
         raise ValueError("Could not fetch USD/KRW rate.")
-    val = close.iloc[-1]
-    # Guard against scalar still being a Series
-    if isinstance(val, pd.Series):
-        val = val.iloc[0]
-    rate = round(float(val), 2)
+    rate = round(float(close.iloc[-1]), 2)
     print(f"  USD/KRW: {rate}")
     return rate
 
