@@ -102,7 +102,7 @@ PORTFOLIOS = {
             {"ticker": "JPM",  "name": "JPMorgan Chase",                   "weight": 0.04, "category": "individual"},
             {"ticker": "V",    "name": "Visa",                             "weight": 0.04, "category": "individual"},
             {"ticker": "COIN", "name": "Coinbase",                         "weight": 0.03, "category": "individual"},
-            {"ticker": "SQ",   "name": "Block (Square)",                   "weight": 0.03, "category": "individual"},
+            {"ticker": "XYZ",  "name": "Block (Square)",                   "weight": 0.03, "category": "individual"},
             {"ticker": "HOOD", "name": "Robinhood Markets",                "weight": 0.03, "category": "individual"},
             {"ticker": "SOFI", "name": "SoFi Technologies",                "weight": 0.03, "category": "individual"},
         ],

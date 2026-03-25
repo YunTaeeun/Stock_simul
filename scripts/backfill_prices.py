@@ -30,6 +30,7 @@ def get_start_date(price_records: list[dict]) -> str | None:
 def fetch_history(tickers: list[str], start: str, end: str) -> dict[str, dict[str, float]]:
     """
     Fetch daily closing prices for each ticker from start to end (inclusive).
+    Tickers that fail are skipped with a warning.
 
     Returns: { date_str: { ticker: close_price } }
     """
@@ -50,13 +51,17 @@ def fetch_history(tickers: list[str], start: str, end: str) -> dict[str, dict[st
         if len(tickers) == 1:
             close_data.columns = tickers
 
+    fetched = set(close_data.columns.tolist())
+    failed = set(tickers) - fetched
+    if failed:
+        print(f"  WARNING: No data for {sorted(failed)} — skipping these tickers.", file=sys.stderr)
+
     for idx, row in close_data.iterrows():
         day = str(idx.date())
-        for ticker in tickers:
-            if ticker in close_data.columns:
-                val = row[ticker]
-                if pd.notna(val):
-                    result.setdefault(day, {})[ticker] = round(float(val), 4)
+        for ticker in fetched:
+            val = row[ticker]
+            if pd.notna(val):
+                result.setdefault(day, {})[ticker] = round(float(val), 4)
 
     return result
 
@@ -99,8 +104,8 @@ def main() -> None:
     history = fetch_history(list(missing_tickers), start_date, today)
 
     if not history:
-        print("No historical data returned from yfinance.", file=sys.stderr)
-        sys.exit(1)
+        print("WARNING: No historical data returned from yfinance. Check ticker symbols.", file=sys.stderr)
+        return
 
     # Build rows to insert (skip already-existing keys)
     rows = []
