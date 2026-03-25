@@ -36,30 +36,84 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Collect stock prices & exchange rate
+        id: collect_prices
         env:
           GOOGLE_SHEETS_ID: ${{ secrets.GOOGLE_SHEETS_ID }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-        run: python scripts/collect_prices.py
+        run: |
+          set +e
+          LOG=$(python scripts/collect_prices.py 2>&1)
+          EXIT=$?
+          echo "$LOG"
+          echo "log<<EOF" >> $GITHUB_OUTPUT
+          echo "${LOG:0:2000}" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          exit $EXIT
 
       - name: Calculate portfolio metrics
+        id: calc_metrics
         env:
           GOOGLE_SHEETS_ID: ${{ secrets.GOOGLE_SHEETS_ID }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-        run: python scripts/calculate_metrics.py
+        run: |
+          set +e
+          LOG=$(python scripts/calculate_metrics.py 2>&1)
+          EXIT=$?
+          echo "$LOG"
+          echo "log<<EOF" >> $GITHUB_OUTPUT
+          echo "${LOG:0:2000}" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          exit $EXIT
 
       - name: Collect news
+        id: collect_news
         env:
           GOOGLE_SHEETS_ID: ${{ secrets.GOOGLE_SHEETS_ID }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-        run: python scripts/collect_news.py
+        run: |
+          set +e
+          LOG=$(python scripts/collect_news.py 2>&1)
+          EXIT=$?
+          echo "$LOG"
+          echo "log<<EOF" >> $GITHUB_OUTPUT
+          echo "${LOG:0:2000}" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          exit $EXIT
 
       - name: Generate dashboard data
+        id: gen_dashboard
         env:
           GOOGLE_SHEETS_ID: ${{ secrets.GOOGLE_SHEETS_ID }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-        run: python scripts/generate_dashboard.py
+        run: |
+          set +e
+          LOG=$(python scripts/generate_dashboard.py 2>&1)
+          EXIT=$?
+          echo "$LOG"
+          echo "log<<EOF" >> $GITHUB_OUTPUT
+          echo "${LOG:0:2000}" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          exit $EXIT
+
+      - name: Log run results to Google Sheets
+        if: always()
+        env:
+          GOOGLE_SHEETS_ID: ${{ secrets.GOOGLE_SHEETS_ID }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          STEP_COLLECT_PRICES: ${{ steps.collect_prices.outcome }}
+          STEP_CALC_METRICS:   ${{ steps.calc_metrics.outcome }}
+          STEP_COLLECT_NEWS:   ${{ steps.collect_news.outcome }}
+          STEP_GEN_DASHBOARD:  ${{ steps.gen_dashboard.outcome }}
+          STEP_COLLECT_PRICES_LOG: ${{ steps.collect_prices.outputs.log }}
+          STEP_CALC_METRICS_LOG:   ${{ steps.calc_metrics.outputs.log }}
+          STEP_COLLECT_NEWS_LOG:   ${{ steps.collect_news.outputs.log }}
+          STEP_GEN_DASHBOARD_LOG:  ${{ steps.gen_dashboard.outputs.log }}
+          GH_RUN_ID:  ${{ github.run_id }}
+          GH_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python scripts/log_run.py
 
       - name: Commit updated dashboard data
+        if: steps.gen_dashboard.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
