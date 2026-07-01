@@ -1,19 +1,19 @@
 {
-  "date": "2026-06-29",
-  "usd_krw": 1535.24,
+  "date": "2026-07-01",
+  "usd_krw": 1552.43,
   "portfolios": {
     "A": {
       "name": "AI·빅테크·반도체",
       "theme": "인공지능 인프라, 빅테크 플랫폼, 반도체 설계/제조 전 밸류체인",
-      "value_krw": 14828830,
-      "pnl_krw": 4828830,
-      "return_pct": 48.29,
+      "value_krw": 15290390,
+      "pnl_krw": 5290390,
+      "return_pct": 52.9,
       "metrics": {
-        "cum_return": 48.29,
+        "cum_return": 52.9,
         "mdd": -10.155,
-        "volatility": 40.6834,
-        "sharpe": 3.4959,
-        "beta": 2.2864
+        "volatility": 40.641,
+        "sharpe": 3.7145,
+        "beta": 2.2963
       },
       "history": [
         {
@@ -287,6 +287,10 @@
         {
           "date": "2026-06-29",
           "value": 14516939
+        },
+        {
+          "date": "2026-07-01",
+          "value": 14948694
         }
       ],
       "holdings": [
@@ -295,175 +299,175 @@
           "name": "Invesco Nasdaq-100 ETF",
           "weight": 0.25,
           "category": "etf",
-          "return_pct": 23.1429,
-          "pnl_krw": 578572
+          "return_pct": 25.2381,
+          "pnl_krw": 630952
         },
         {
           "ticker": "SOXX",
           "name": "iShares Semiconductor ETF",
           "weight": 0.2,
           "category": "etf",
-          "return_pct": 82.5218,
-          "pnl_krw": 1650436
+          "return_pct": 90.3681,
+          "pnl_krw": 1807362
         },
         {
           "ticker": "SMH",
           "name": "VanEck Semiconductor ETF",
           "weight": 0.18,
           "category": "etf",
-          "return_pct": 61.483,
-          "pnl_krw": 1106694
+          "return_pct": 67.5925,
+          "pnl_krw": 1216665
         },
         {
           "ticker": "CHAT",
           "name": "Roundhill Generative AI ETF",
           "weight": 0.1,
           "category": "etf",
-          "return_pct": 49.3895,
-          "pnl_krw": 493895
+          "return_pct": 54.4771,
+          "pnl_krw": 544771
         },
         {
           "ticker": "NVDA",
           "name": "Nvidia",
           "weight": 0.07,
           "category": "etf",
-          "return_pct": 11.0055,
-          "pnl_krw": 77039
+          "return_pct": 13.9205,
+          "pnl_krw": 97444
         },
         {
           "ticker": "PLTR",
           "name": "Palantir Technologies",
           "weight": 0.04,
           "category": "individual",
-          "return_pct": -28.0652,
-          "pnl_krw": -112261
+          "return_pct": -27.4621,
+          "pnl_krw": -109848
         },
         {
           "ticker": "TSM",
           "name": "Taiwan Semiconductor (TSMC)",
           "weight": 0.04,
           "category": "individual",
-          "return_pct": 34.4659,
-          "pnl_krw": 137864
+          "return_pct": 41.105,
+          "pnl_krw": 164420
         },
         {
           "ticker": "AVGO",
           "name": "Broadcom",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": 15.4848,
-          "pnl_krw": 46454
+          "return_pct": 17.1282,
+          "pnl_krw": 51385
         },
         {
           "ticker": "TSLA",
           "name": "Tesla",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": 8.1371,
-          "pnl_krw": 24411
+          "return_pct": 10.4372,
+          "pnl_krw": 31312
         },
         {
           "ticker": "MU",
           "name": "Micron Technology",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": 183.2398,
-          "pnl_krw": 549719
+          "return_pct": 185.468,
+          "pnl_krw": 556404
         },
         {
           "ticker": "AMAT",
           "name": "Applied Materials",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": 92.0009,
-          "pnl_krw": 276003
+          "return_pct": 99.8397,
+          "pnl_krw": 299519
         }
       ],
       "news": [
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "QQQ",
-          "title": "QQQ is up 1.8% today, on AMAT stock price movement - Quiver Quantitative",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNM2JwVlJWMU8zX29zNHJtbEhSalZvazhYUVoxemtXVUc4R1RUc0lJUENhU0xCanlBeDhpeHRwTWRwclpTSG5qY3Vsb041V3JYaGowTXJpSTd0Xy1SSXMwN3RhRlFlN2ZyQk94VnUxSXVld1hsSFU1cmpaNGlraU42MWQ1eUJFM2xKVFhJYmZTeHA?oc=5",
+          "title": "QQQ is up 1.4% today, on MRVL stock price movement - Quiver Quantitative",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdEV1d0V3S1NqajFUcnZTSmdjcGtVQjBQX28ya3J0XzdkRWpKeW03T0d2Sm5zd0ZFRXFrbTRzbVVoeWFaZHVyZ0NuN3h5UVdvclduRi1lTzhEWUw5TFFRaWtidXpxNld6Um92c3l6eWNPQ1pKaXh3cks2Rmdka1JaT253aHFDZ0VnWElpbmtvSTk?oc=5",
           "source": "Quiver Quantitative"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
+          "ticker": "QQQ",
+          "title": "Look Closer At SPY, QQQ: Investors Are Rigging A Safety Net Under The Stock Market - Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZVFET0x6WGx0NTVzT2hLaU5nQ3BMYVRyVnVXWHhBNm0ySzlPNkp4UWJKb0R6aldOSUwwV0tDcFRzYnhyc1pUVm9yN3BDei1kQ0d5RkgxbHRjdFZwMzlzSExNOTdCZWdFQ2p1Z1l5WlFsWGNxS2lFMWVJYzdzREVWM0JNYXUtSFE5YVRkdFFnVjl2RVVkc3lqa19ZNGdENEp3cVlJNnhNQW85TWs?oc=5",
+          "source": "Benzinga"
+        },
+        {
+          "date": "2026-07-01",
           "ticker": "QQQ",
           "title": "SpaceX is joining the Nasdaq-100 index: Timeline, date, impact on QQQ, 401(k) plans, and more - Fast Company",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQY0l5WXhUeWp4eDR3a3lyc3Q0bWt0cElET1U0Y2pSQllFNmEzcGxkc0FSdHlHZHQ5TjJXV3VOdEQ4TXh6emxmYUl2alNuT1pSSXFqcHNvWEhmQ0VDcGIzdmNONXRqY2ZqOFFpaWNQUFZnYVc3NERUdkhRVmJ6cVdOdjRBeEdVMlVDbFFFS0RBVWdyeGhP?oc=5",
           "source": "Fast Company"
         },
         {
-          "date": "2026-06-30",
-          "ticker": "QQQ",
-          "title": "QQQ 260625 709.00C (QQQ260625C709000) Stock Options Chain | Quotes & News - Moomoo",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3YjR5ME9WLURHaUp5RVR5VE0wUUdkdHJraFlxMmZWQ0k4b0o1VS1BV2tjWm9hb29aTnRsWlNIX1NkQU9ETnlkaGtRR3pxLVJ5cXlPcUZJaUdpTU5RcVJj?oc=5",
-          "source": "Moomoo"
+          "date": "2026-07-01",
+          "ticker": "SOXX",
+          "title": "Chip Stocks Surge Amid AI Demand, Concerns Arise (SOXX) - GuruFocus",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd0xseGZTYzZfWkp3Rld3cDBVQXpNeElRdS1RWkRxTmpkU25xdHZBajJjLVI2bWFCbUk2akJKVmh1cnB0U3VtQ3FaR3dRTnZ0UlNTa3hvVTNRbUZQeWFTZWMxdlZWd0cwMVVuYjVOWGZxZk16U0d2alFfZHdfYk5adGdUNWVWU3k0RWM4dnA4NHNoLUpoYWc?oc=5",
+          "source": "GuruFocus"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
+          "ticker": "SOXX",
+          "title": "Chip stocks are setting records, but this hidden chart pattern says momentum favors the bears - MarketWatch",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS1lOeFJVenljTUVIVlZTYUVXM0dEaTJkYXpZb29kNUt3Zjhhbzd3VG9oYjJPcW5lNG9ySnh3aWhYeUs0MHRUSHpfd2s4OXlOQUtDR3Vsd0hhTFFpSldzNlJlSzFmUFBOZzdiYTR3SmNEUzFTcHZISUFidGU3SVRSVUh4REQ3SFQ5NVlyLXBqWEpQRE0xYUlHZ2Z1azFyX2RlR1JQVElkdDNpVmdaMFdkeF96RUh1eXpXRFJTc081dHFpdjFkRU0xeERNdWRtc0V4?oc=5",
+          "source": "MarketWatch"
+        },
+        {
+          "date": "2026-07-01",
           "ticker": "SOXX",
           "title": "Inside SOXX: The Few Names Behind The Fund’s Big Year - Trefis",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSE1TZDZxNTBwOV95M0xOZUpNUnNxREhJRHpjSDhHbFRuMDItVExiV0RoS0JRS0VONjRxS3BaZDdZbDVRdGlBN2FMaVdnTVZlRWhGY2p6anBuWlR6Vkl0NGZXaUtaNlBXQUl3YUstUktNdXZQUU9LWG5qczJYY2x6ZTBHN2hCek5veTRXM19wVUJYUjBJZ1BYRFBETE9ONmdCdTFjdUZ0ZVFocW9udVhfd2Jn?oc=5",
           "source": "Trefis"
         },
         {
-          "date": "2026-06-30",
-          "ticker": "SOXX",
-          "title": "Traders are getting worried the chip stock bull market is cracking. How to protect yourself - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbVpwY1BhTUktbEFDbUhsajBDbnBQSk1hWVhRUXEwWjRlLTFTd2M5bzhyWjdiVWdHU2cyelJiNVRNLTVWdDktZlRmWTlDU2w5UVdCMkt6SU5LX1B0a1QzT1FRYVRQMFV5eEpFVXQzcWJOS0N2VmVmc3VRY0tobVQ4dTczLWNRRjdjakJBeDZMM3hPX3h2ZWQyYUpDclFENWtXeUt0eVpXUG1tLW5qcVVYTmVMNUgzNFBTMFMycF9SNVp5OThrVXfSAcsBQVVfeXFMTTJZR0d1MUZoalBGcU81V0ZHcHZJREJaeXg2cWV0UHhsc1hYbERWTEtzVnp2V0ZzRUplN1VYWjYwcURtZ3RmWjd5UGpod0hLM2ozYVlKQkYxRUhpbXZ6ODljLTFXX3RpdU9jQUhncnpsaWM5eENiRWlmZlNXYnhhREFCdlVzSTI1OWdfYWsyRjFNLTFrc1lNeWxIOWRKVHBBZ2stbnFZMWplaE9RNWg0UHUxNEJXSTRVRVg1c1pBUGIyR2M1UnFtV1FoaTQ?oc=5",
-          "source": "CNBC"
-        },
-        {
-          "date": "2026-06-30",
-          "ticker": "SOXX",
-          "title": "The SOXX ETF Recently Hit 10,000, but There's a Semiconductor Split Lurking Under the Hood - Barchart.com",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNl9WWUwyWFZyYVE4LWd5NWdMNWtjVEFJVUxHRE5sT0NlbnNORDNDQmxHeU5ZYXhCZmVxbjhjSV9jdW40VFdRbU9Eek1WSS1WazBlV1RkSTlPYUtBeUFscjk1TFlCbGQ4N08wVncyM3F1MEUwVDBmbDZINzhUdFk5dUQyRDZqck9TQ1VodlF3a0w5OERiTG1teUpDeGFuSElKWmM3d0U0SHFibTdVY3dJMUtzcHI0Vm95c1pNMjFNc21vOWM5TW5qLUgxYTZ1UQ?oc=5",
-          "source": "Barchart.com"
-        },
-        {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "SMH",
           "title": "If You Put $500 a Month into This Tech ETF Since 2016, You Could Retire Tomorrow - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaVVReGlXbXdPeDRHbF9QN2tRSjEzeTBiRzZuZEZnNVJYWS0zelFranhyVW5mMWNydXZlYVdFdnQzOUM2dFhZMl9qM0pFR3AxZmVXd1FHZThLc2o1X1BnbExXVlNsaUV1aWRDZnB5NzB5dHNoeWg2NWRRMmdkZWszbFFtVzJNeS1YamlaRmpXX0k?oc=5",
           "source": "Yahoo Finance"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "SMH",
           "title": "Nvidia’s Upbeat Forecast Lifts SMH’s Earnings Outlook - Trefis",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMGFVbjVxWTNyTExlUW1sWldWWThwcTQ2Q2NzVnQ0VGZjOExqZ29FX1IxRVRoYjJoQlhzYmVEWXEwWUJvNFFIOTJ2T3FfWmM4U1BYd1NLTHRjNGVLN1duUW90aHl1VVNrVXYxX2xfbU9MRm4xRFo0Zjd6SmxNX0FZVGk3clF1RXQwbmRIbU5Za0F4Vnk2dm5UMW0yNE04X29XaUE4SnhpcWNQUmxoXzR0UQ?oc=5",
           "source": "Trefis"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "SMH",
-          "title": "SMH News | VANECK SEMICONDUCTOR ETF (NASDAQ:SMH) - ChartMill",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84a2Q0RHNkR1BiTXVqLWZtakFxY285NTA4emZzQkNhZjVnTjFjRFRmcE94bW45cVBPbEdZczIxT1lmcHoxblJLSWtCS0hwY0ZWdlJyNUNoYzFlQQ?oc=5",
-          "source": "ChartMill"
+          "title": "SMH Stock: Is the AI Chip Trade Still Worth Chasing? - MEXC",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNWEyb1FuZExmOGk1WEpVdjBvc2NsZWVYc1BhOXluTWUycGxTYXhfam95Ny0yQWJPTl8wOU9ZaFQzUVRscUN6LThoS2Q3R0ZzdHB6MDJjQU9wc1RpRHVjZDEzeFpKU21fS0hyQlgtN3dOOFpaNjBjOFBEV3c2Qk5BeEk0RS02Q2tJcEtJNDNBZnlOUGFpMGVFbg?oc=5",
+          "source": "MEXC"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "CHAT",
-          "title": "Micron Stock: Let’s Talk About Those Long-Term Contracts - Trefis",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT2k0QUhkOUxzaUtFQ0dIUDdDcF9ESTFjemtfQThDblY3NEh4cVpvU3JXbUdfamlqMHZKcTZfRHZwR2lhcmowRTNLQVRhRDUzX3BqeUlVNTZvU3NYQVVNVzAyeW04MGNaSGw5VDJfZEdIeVJmaDlOOHVUOTFBTURrX1hLemYyd0NTNGhEU2xyS0szQTdjSnVUQzhtaWNkd2tWaTRSZ0NiVVEyc254Y2FncnZOVQ?oc=5",
-          "source": "Trefis"
+          "title": "A Historic Yen Slump Has Intervention Talk Rattling the U.S. Stock Market - Barron's",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcEFXS1dzaXNXLXNkbEktZHBGZnc2UUplZjBWbnFibElVQko0TEN6NVBlOGFPTHFJWkhucElqSmNtQzJxUktpVU55bXdHdmx5TnZQbU8xSmZUbmplUDJ1TlJyZ09Vamd5Wkx2U0V6bC1VM0ozTC1yTlR6WFZ3YVV2dGhvZDM?oc=5",
+          "source": "Barron's"
         }
       ]
     },
     "B": {
       "name": "금·원자재·식품",
       "theme": "인플레이션 헤지, 안전자산, 실물 원자재, 농산물 식량 안보",
-      "value_krw": 9184680,
-      "pnl_krw": -815320,
-      "return_pct": -8.15,
+      "value_krw": 9225480,
+      "pnl_krw": -774520,
+      "return_pct": -7.75,
       "metrics": {
-        "cum_return": -8.15,
+        "cum_return": -7.75,
         "mdd": -19.478,
-        "volatility": 29.3131,
-        "sharpe": -0.9422,
-        "beta": 1.2904
+        "volatility": 29.1156,
+        "sharpe": -0.8798,
+        "beta": 1.2883
       },
       "history": [
         {
@@ -737,6 +741,10 @@
         {
           "date": "2026-06-29",
           "value": 9287045
+        },
+        {
+          "date": "2026-07-01",
+          "value": 9329406
         }
       ],
       "holdings": [
@@ -745,156 +753,156 @@
           "name": "SPDR Gold Shares",
           "weight": 0.25,
           "category": "etf",
-          "return_pct": -8.7764,
-          "pnl_krw": -219410
+          "return_pct": -8.8259,
+          "pnl_krw": -220648
         },
         {
           "ticker": "SLV",
           "name": "iShares Silver Trust",
           "weight": 0.2,
           "category": "etf",
-          "return_pct": -15.6715,
-          "pnl_krw": -313430
+          "return_pct": -14.4069,
+          "pnl_krw": -288138
         },
         {
           "ticker": "PDBC",
           "name": "Invesco Commodity ETF",
           "weight": 0.18,
           "category": "etf",
-          "return_pct": -4.5208,
-          "pnl_krw": -81374
+          "return_pct": -4.2797,
+          "pnl_krw": -77035
         },
         {
           "ticker": "DBA",
           "name": "Invesco Agriculture ETF",
           "weight": 0.1,
           "category": "etf",
-          "return_pct": -1.2295,
-          "pnl_krw": -12295
+          "return_pct": -0.6334,
+          "pnl_krw": -6334
         },
         {
           "ticker": "GDX",
           "name": "VanEck Gold Miners ETF",
           "weight": 0.07,
           "category": "etf",
-          "return_pct": -9.2348,
-          "pnl_krw": -64644
+          "return_pct": -9.5107,
+          "pnl_krw": -66575
         },
         {
           "ticker": "NEM",
           "name": "Newmont Corporation",
           "weight": 0.04,
           "category": "individual",
-          "return_pct": -3.6988,
-          "pnl_krw": -14795
+          "return_pct": -4.8298,
+          "pnl_krw": -19319
         },
         {
           "ticker": "WPM",
           "name": "Wheaton Precious Metals",
           "weight": 0.04,
           "category": "individual",
-          "return_pct": -7.4658,
-          "pnl_krw": -29863
+          "return_pct": -6.3063,
+          "pnl_krw": -25225
         },
         {
           "ticker": "GOLD",
           "name": "Barrick Gold",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": -6.3554,
-          "pnl_krw": -19066
+          "return_pct": -5.2164,
+          "pnl_krw": -15649
         },
         {
           "ticker": "FNV",
           "name": "Franco-Nevada",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": -8.6357,
-          "pnl_krw": -25907
+          "return_pct": -8.1155,
+          "pnl_krw": -24347
         },
         {
           "ticker": "COPX",
           "name": "Global X Copper Miners ETF",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": 2.9776,
-          "pnl_krw": 8933
+          "return_pct": 4.6499,
+          "pnl_krw": 13950
         },
         {
           "ticker": "KGC",
           "name": "Kinross Gold",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": -14.4912,
-          "pnl_krw": -43474
+          "return_pct": -15.0665,
+          "pnl_krw": -45200
         }
       ],
       "news": [
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "GLD",
-          "title": "Best Gold Stocks Of 2026 - Forbes",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IWHIxeWN0bUs4N1dkNzMtRmNRUm1vWkQxc3dJeXk0UFpXQktxM1JNbFBfRENyRS1TLWVSa2FmdzNpOC1WQTJtZ0dHd2licDVQRUNFM0lPcHppbnRJS1ppbGE3QlFNSG9iUUE?oc=5",
-          "source": "Forbes"
+          "title": "Should I Buy GLD (SPDR Gold Shares) | AI Analysis, Technical & News Insights - Kavout | AI",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1yQm5Md1ItSmNYdS1ybGkwdGhBTHl1dDE4S1c0UXQ5amNRb3dJMG1fd3JsSkExbjQtTW1ieFN5QzRjMzVsQWozTDRmNkthXzBFUGFlbDVRbERpQ3M1?oc=5",
+          "source": "Kavout | AI"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "GLD",
-          "title": "The gold chart looks precarious. Here's how to profit - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcUxXUTkyT3NZODFpeDFibGxaQklRUUpLeG5mTTlRdlNlYTJqc1FDUHJNTm53WlQyc1gteFVuVkd0dnFYT1BsaklhY2JiRWc2Nlh0b0pEOVhtV0lDZHhrTlNtRFk2S1JhVkgta3BFOEppY2RGWnhxRnBsS21jQlA1TnVZb2JidTBqUV8zeG5qNXl0UdIBlwFBVV95cUxQQWpKNllWRW5Iak9RVURlRGhBMjZHeXpsdnhRUVJRc2NXaXE2UmlyLTN5MlYwRmtuYjRBb2xibllwanJRTkdMSTR1MGxNZVEwNHhPV1Flckd2V3djMDdlWDhhMHVwVXVCclBBOW9GTnl2b2c5empqUkxrSHV6TDhqcTNIZGFJcHdvSGdtUE1kTzRmYVN3cE9v?oc=5",
-          "source": "CNBC"
+          "title": "Forget GLD: GLDM Tracks the Exact Same Bullion at One Quarter the Annual Cost - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOU0hRUVdMYllJdFRWQ25FN1J6Zno4OGJrcGVGX0V6R2UtdDBsaHg5Rl8xYnJtMFp5X0oyZ2plYXZvT25HRjJOb0JjOGJnV3lYUDZieER3a2FnN2pQaXppLTU5V3VGYk94R19ET1o2RGdyR2ZucVNXay1kUTVxRkUxUHJ2OWxwQzRuYlI0d0xXaFdnNUo0bDdYSFhPV2NOdzg?oc=5",
+          "source": "Yahoo Finance"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "GLD",
-          "title": "Gold Futures Overview - CME Group",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WeDc1RGtZSl9sWTFkQXE5RFZpdVo3VkRJT08zLU5TSUVSQWpLTUNOR3RjZEwxY2hYNUdLUzdrV2xsdDY1OTlkcGJxM1pyaUNOSndxdDNuY2N0NXROM1psWERyeVVRZko1ZGc?oc=5",
-          "source": "CME Group"
+          "title": "Why Alamos Gold Stock Is Plummeting Today - AOL.com",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQVlleHpUWEoxU3o5dk1HNFFFTmRsWWw3TlZWaGdvdXlUeEZadk5GV3BnRVhMNDVwZ2lYTU1EWkdwSnAwZFQ3WUJMY3BlMVZRQkF5b0NPa0VUNmV1OVpocVZkckowT1p4SXF3TUVPN0Q3aWJWMVYzVEQ1VVRISEIxUENn?oc=5",
+          "source": "AOL.com"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "SLV",
-          "title": "iShares Silver Trust (SLV) Stock Price | Quotes & News - Moomoo",
-          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQUDM3UGc5akFRYWROYkJxUDU3QzZWa0x1SHBrUVlleUh3Y2x4aFJzZTN5dnhod2poQjNMYzB3amN1VWhxWDI2bk9ud3ZVUEdZNkh3eGhhTW9mdGdITjJPR1drbmc0NUY4bF95VGlMOFBuVHhqR2NFQ21nTTdaOHp3UUlOdWpfeUFjNTRVLUE4N1RQc2R0eE91R3dVOF9TTUMwcGlpekV4TEVidldvV0N2Y09ucS1sZG5sekYyZy0yOFYwSEZya2pkcVhHTlNrZV9EbTZuZkt4WUlqdTFVSXBkUF9fQUxGZW9QazVacnVyYVVxYmE0clVTVnlBTmVLV1c4ZktNQ2tCRUNzV2Y2SXh2cm9vLWREb0wycFpDVEV4QUwyQ1d1enNJ?oc=5",
-          "source": "Moomoo"
+          "title": "The Price of Silver Just Collapsed. Here's Why the SpaceX IPO Could be the Start of a Silver Boom. - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRVdXdFNoNUh0WVV0ZHFtZkZPYnFqR3EzYjNwR01pblcxSFpJZlpSZ19iUmVTM0o3VHlTQ0gxUjVsT0VwZmxScW42V1VzODlPNXpSZnpQcUQ3Y2x1SmJiMG0wbWlCSy16aE5jWEh5WWxTbUFtWmFEOE5rRE1CdGNTVS1POEFhTWNZcmxEekVtbWI2NXUyZUtwUnFhSzlHX1pzdXNQeVQxajRnNTUwMjF1TXI4djVBYkZmSVZDT2NQUzNZZEpfTFZpYi0zUG1xSy1PSF81cmhB?oc=5",
+          "source": "24/7 Wall St."
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "SLV",
           "title": "Silver Crashes To Over 6-Month Lows – But This Analyst Sees ‘Very Limited Downside’ - Stocktwits",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY3FxandkQ0N5MDJINlRYaVk3a1pFMGJaVFRMQ19TU0RRTTRKbDN4cEFnY0VGdURPSzVmX1pneDJYcVJsR2VoTVROUnZZaU5sanFiTDF0RTZyZ2hLRy1ZOU92Wkg5S3VSeHMxdGk1alV3Y0hIU3BoVUtsSE55UmFUYURpY2dsUXIwZVVNcW9TeW01UU9IdEVpYkRYT3g5dU9iUWRqZ3pYZkJEVjFpdmNOVVNZWXNUSnEtVmN6WQ?oc=5",
           "source": "Stocktwits"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "SLV",
-          "title": "SLV 260626 50.00P (SLV260626P50000) Stock Options Chain | Quotes & News - Moomoo",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1MTFhId2dGVVZVWU5vRFR4V2dRWkM1bkVpdHhMWVN0TWlxUUtjTmd4N1k1bHItQTVSdTFTNWhFTHRjdHRIMlIxWDRvLUJfdW1uVzVQNW5SNGFFcFBUU2c?oc=5",
+          "title": "iShares Silver Trust (SLV) Stock Price | Quotes & News - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQUDM3UGc5akFRYWROYkJxUDU3QzZWa0x1SHBrUVlleUh3Y2x4aFJzZTN5dnhod2poQjNMYzB3amN1VWhxWDI2bk9ud3ZVUEdZNkh3eGhhTW9mdGdITjJPR1drbmc0NUY4bF95VGlMOFBuVHhqR2NFQ21nTTdaOHp3UUlOdWpfeUFjNTRVLUE4N1RQc2R0eE91R3dVOF9TTUMwcGlpekV4TEVidldvV0N2Y09ucS1sZG5sekYyZy0yOFYwSEZya2pkcVhHTlNrZV9EbTZuZkt4WUlqdTFVSXBkUF9fQUxGZW9QazVacnVyYVVxYmE0clVTVnlBTmVLV1c4ZktNQ2tCRUNzV2Y2SXh2cm9vLWREb0wycFpDVEV4QUwyQ1d1enNJ?oc=5",
           "source": "Moomoo"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "PDBC",
           "title": "Avoiding Lag: Real-Time Signals in (PDBC) Movement - Stock Traders Daily",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQnpSemJtUUtNb1hib2dkQVNubEFDYnBIWHc0NXhwdWlic3BvMTVIMFFGaHl3NXdiTHdaTjFPYjlKVngwTG90a29vdTlidEpKRTFFak1HLS1DbUVIMFhmdklLM3FZdGFaN3ZDc3JvTFBHSm1wR3h6b3N0REdZVHRyS2ZIcV9Qa2h1TnZTbWQwOVI1cW90bjBPZEpKaExFN1hwZ0YwYTM5ZTkzYzRPazBXbk8wY2E1WExMUEZmZTNteUNCV3MySzUw?oc=5",
           "source": "Stock Traders Daily"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "PDBC",
           "title": "Zacks Investment Ideas feature highlights LIT, SCHD and PDBC - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYUo4LUc2WS15VEVEbnpEa3d3eENvRDRvRkIwYmEtU0lNd0RJZFdlUEtkWktYUUZHcGxrd1VoZk9FZnlYcFJxeG1nWHA0ZFFqYmNMUVRHQUxsczRQdnBITHVXNTU0UTlOUG8xcTFWdjJyTlZZY045c3JvWTdWTkViN2JiemotSzRKa2lkbTRLNzduSTd5eUNCMFNOQTdoaDZWYkdBbGJyTjhmY3JiS2ZySQ?oc=5",
           "source": "Yahoo Finance"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "PDBC",
           "title": "Fund Update: New $95.3M $PDBC stock position opened by CHARLES SCHWAB INVESTMENT MANAGEMENT INC - Quiver Quantitative",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUUNIbnlyMHNOTkhVcEMxbV9SSG16RTdxbmNDaGM2Q1JDTGgtdTQtZVJpeE84UEx3R1RpRGltYWNfTFdlYXBQS1RzUlBTR1E5S2tzWFRXcHQzcnZxemp2Y3A4azdmMzBmNDFwd214Ty02NTgtdnFaZ1Q3bTBaMjllSFJmUnBGMENJRGp5RTNEbGtvN2E2YkhONnBrMGZBeDhxWFpLX2JaUjBPYVgwemhybFljNTFzMHZXRno2MXpIRzhtYkROcnFORTlKQXJidXM?oc=5",
           "source": "Quiver Quantitative"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "GDX",
           "title": "GDX 260626 76.50P (GDX260626P76500) Stock Options Chain | Quotes & News - Moomoo",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5pQ21kMHMzUjN0V1AtSFB6ZTVSZDR3WE8tOUVZcXNLbkZ0QUdfOHVpTUw2OEV4TUdVSlozU3AtS3ZBVDJBNGdVWWdmdmxkNXBUTUlkMmUzWE5VQzNhRXc?oc=5",
@@ -905,15 +913,15 @@
     "C": {
       "name": "바이오·헬스케어",
       "theme": "바이오텍 혁신, 유전체 치료, 비만·항암·희귀질환 신약 개발",
-      "value_krw": 12394250,
-      "pnl_krw": 2394250,
-      "return_pct": 23.94,
+      "value_krw": 12324690,
+      "pnl_krw": 2324690,
+      "return_pct": 23.25,
       "metrics": {
-        "cum_return": 23.94,
+        "cum_return": 23.25,
         "mdd": -6.6083,
-        "volatility": 25.5265,
-        "sharpe": 3.0576,
-        "beta": 0.9048
+        "volatility": 25.3959,
+        "sharpe": 2.9445,
+        "beta": 0.8912
       },
       "history": [
         {
@@ -1187,6 +1195,10 @@
         {
           "date": "2026-06-29",
           "value": 12383811
+        },
+        {
+          "date": "2026-07-01",
+          "value": 12313433
         }
       ],
       "holdings": [
@@ -1195,148 +1207,148 @@
           "name": "iShares Biotechnology ETF",
           "weight": 0.28,
           "category": "etf",
-          "return_pct": 16.6574,
-          "pnl_krw": 466407
+          "return_pct": 16.9033,
+          "pnl_krw": 473292
         },
         {
           "ticker": "XBI",
           "name": "SPDR S&P Biotech ETF",
           "weight": 0.22,
           "category": "etf",
-          "return_pct": 30.0822,
-          "pnl_krw": 661808
+          "return_pct": 30.0329,
+          "pnl_krw": 660724
         },
         {
           "ticker": "XLV",
           "name": "Health Care Select Sector SPDR",
           "weight": 0.2,
           "category": "etf",
-          "return_pct": 11.0313,
-          "pnl_krw": 220626
+          "return_pct": 9.5945,
+          "pnl_krw": 191890
         },
         {
           "ticker": "ARKG",
           "name": "ARK Genomic Revolution ETF",
           "weight": 0.1,
           "category": "etf",
-          "return_pct": 59.0687,
-          "pnl_krw": 590687
+          "return_pct": 57.9422,
+          "pnl_krw": 579422
         },
         {
           "ticker": "LLY",
           "name": "Eli Lilly",
           "weight": 0.05,
           "category": "individual",
-          "return_pct": 35.0755,
-          "pnl_krw": 175378
+          "return_pct": 31.7259,
+          "pnl_krw": 158630
         },
         {
           "ticker": "NVO",
           "name": "Novo Nordisk",
           "weight": 0.04,
           "category": "individual",
-          "return_pct": 31.2873,
-          "pnl_krw": 125149
+          "return_pct": 30.201,
+          "pnl_krw": 120804
         },
         {
           "ticker": "REGN",
           "name": "Regeneron Pharmaceuticals",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": -14.218,
-          "pnl_krw": -42654
+          "return_pct": -15.3409,
+          "pnl_krw": -46023
         },
         {
           "ticker": "CRSP",
           "name": "CRISPR Therapeutics",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": 20.2005,
-          "pnl_krw": 60602
+          "return_pct": 16.3396,
+          "pnl_krw": 49019
         },
         {
           "ticker": "MRNA",
           "name": "Moderna",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": 35.9204,
-          "pnl_krw": 107761
+          "return_pct": 36.564,
+          "pnl_krw": 109692
         },
         {
           "ticker": "RXRX",
           "name": "Recursion Pharmaceuticals",
           "weight": 0.02,
           "category": "individual",
-          "return_pct": 14.2415,
-          "pnl_krw": 28483
+          "return_pct": 13.6223,
+          "pnl_krw": 27245
         }
       ],
       "news": [
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "IBB",
-          "title": "How Ishares Biotechnology Etf (IBB) Affects Rotational Strategy Timing - Stock Traders Daily",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWHd0R1c0NTZyQnRlSk9QcURlbW9scTVRZFdpenRNTVVXTlgtVlUwRWhGeGxoVTRqS0hmVWo3VlNSVG5aenJLcnBhZGVITE50elNpTFZBLVhYV2VZX0Vqd2xfZ0p1NTVaRXVnZG9NOGxMU1dFd2ZKLUJIZThZbC14VE9FYnFVdmxfSS1WZjU0LTNCLWVSSFpkeUxFRVktM3FlYkdrUkI0MnZqeTY0NVhkWUs5RmlGMm1ObXpSVjNkdGMySDRRbDBKbUNpV0lKVFJOVVJBalVfcG5vbnNKaGNtcjhMWQ?oc=5",
-          "source": "Stock Traders Daily"
+          "title": "IBB - iShares Biotechnology ETF Stock Price and Quote - Finviz",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5RNVh3THhzR3RxZ1Z4V21OVnlrSndmbnJGNmxoaG1wNFdXcEdwdEdldklCTGwwNzM1NGZubklhczhMZkpX?oc=5",
+          "source": "Finviz"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "IBB",
           "title": "IBB: Space Stocks And AI Stealing The Risk-On Show In 2026 (NASDAQ:IBB) - Seeking Alpha",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZE1UQ04wTmpHeVg3alpYQkJnNXRDRjdxYnI1SndTMWNYYjc5YjdjejZ5UkVQNnU1Y1BjZ05fV3N5aUZlVzVyR01aNURPYkp2cVFwTDVqTzNaLUtRS1hGWTFFM0R1QjJldVdzNklTbUFYWGlSQ205NjdwZTdTcmlQb0hfZVY5alNlS0ZCVjd5ZnE0Ty01LWRIRktia2tmajQ?oc=5",
           "source": "Seeking Alpha"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "IBB",
-          "title": "Is iShares Biotechnology ETF (IBB) a Strong ETF Right Now? - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb3VUM0VNR09UQzNSVl9qRFctX3B2dlBaOWVvS1B4Z0t4b2Q3WTJPSWRVU3hpTnRWVkZBR0gwTHlvbkJuQzVVbzFQUUFfVzhyVXZVRE9SVVRkeGZHZXZGTWtYVWc1LUMyb3g2dlQzWkM2YmhtWE5JemFXX3ZtMmh2d2NMenFNb251TE9IaWpsdHJ2dXJGNmpHZDQtS0RpdWxlMEotNXBmbnU?oc=5",
-          "source": "Yahoo Finance"
+          "title": "How Ishares Biotechnology Etf (IBB) Affects Rotational Strategy Timing - Stock Traders Daily",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWHd0R1c0NTZyQnRlSk9QcURlbW9scTVRZFdpenRNTVVXTlgtVlUwRWhGeGxoVTRqS0hmVWo3VlNSVG5aenJLcnBhZGVITE50elNpTFZBLVhYV2VZX0Vqd2xfZ0p1NTVaRXVnZG9NOGxMU1dFd2ZKLUJIZThZbC14VE9FYnFVdmxfSS1WZjU0LTNCLWVSSFpkeUxFRVktM3FlYkdrUkI0MnZqeTY0NVhkWUs5RmlGMm1ObXpSVjNkdGMySDRRbDBKbUNpV0lKVFJOVVJBalVfcG5vbnNKaGNtcjhMWQ?oc=5",
+          "source": "Stock Traders Daily"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
+          "ticker": "XBI",
+          "title": "XBI Ignored The Market’s Downturn - Trefis",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNM1VVaWNvdW0tU0lSZW52RVVpRzBxaVZkMXdTUjFXRW5LUlpJZVhYckEzR1FJbmRHaC1BUDVFRVd3YnFzUU9rM0VkWEVGRElod2dFQXd1ckRGaWYtVnZadnRxLVdUcjlQeGxMbEhiSUd2M3A3QU91SXgzcFV4YXVHZUdpbnVsc1ozQTZHOXotUTV2a2ZzdjZZ?oc=5",
+          "source": "Trefis"
+        },
+        {
+          "date": "2026-07-01",
           "ticker": "XBI",
           "title": "The Entire XBI Is Today's IBD Stock Of The Day — Here's Why - Investor's Business Daily",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN2tfaUotdm9HNGRTVWpvTlEyNVFzSFFQdzZUaEdzWkE5S1ZVcE9hbV9mMEpnVFhZaGtzOFJyYjQ5ZWJabjlkYk1jVG8yME8tVURfVnFYV2htMkhkV0VBVUQ0YjR1T0sydDgxVlRwQTQ2T0lSWVhzTWVBWkRPclRhaXFJWFVsaHBRM2tSQUxB?oc=5",
           "source": "Investor's Business Daily"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "XBI",
-          "title": "XBI Ignored The Market's Downturn - Trefis",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMWxjSkRDSkhNTXJsWjlmQWZKRndTMU0tcG1GNWk2UVVHSG9lcXhNZnEwbWJiTVRxN2lHZTZ1UjRvRDRUbzI3d1YxYU11SFVRZ1FRV1NGdXZlSlB1LUlDYTk0NGlvdm9WVGFmdW1hcldnSlEyYUNLSTdzTUdjak1zTTdreDQzc2VOVW5aY0ZsV0Zia0RFdHhNc2o3VXk0enhvVi1tSg?oc=5",
-          "source": "Trefis"
+          "title": "(XBI) Volatility Zones as Tactical Triggers - Stock Traders Daily",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaUtvbEFSSVpOSHhCcW5YVUo4TjRkSzlfTElrQWxOWkk3V1JwRVNrT1FBTGdSX3JORnVtWlZYZzBlZVZVelBzc1dnYUlrakNYLXNaR2hWOTZRZlljVElYcWhLdTZTU2MtYkRYSlRCbEpwcXU0RjNKeHJwOFRHN0FVWDAwZTJpb0VOT0xXNmloeXo2WDdKcjg4OWVxblNyRHIydnNaTW9KQ0ZNcWVLcGxGZ2c0SGZnaGhHR1NEMQ?oc=5",
+          "source": "Stock Traders Daily"
         },
         {
-          "date": "2026-06-30",
-          "ticker": "XBI",
-          "title": "XBI - State Street SPDR S&P Biotech ETF Stock Price and Quote - Finviz",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5VX3RMcFNWTUE3Tjg0dDNucHFaZmpPSUZSaGZ3ZV9LWFF0WHYweTFTejJjbzNmN1l1NFpQc045M1lGMTNP?oc=5",
-          "source": "Finviz"
-        },
-        {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "XLV",
           "title": "Health Care Select Sector SPDR (XLV) Pivot Points Analysis - GuruFocus",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZm84WkFRT2JDZmxBWFg3YzVBWlZGSDY0OVRKczd0X2FzdURRNTZwUDRmbTR3X29ldUFUdEdfSDJtMDE2V0tndXJoYnZjR3ZWWHpDZjBza0VJNGNIYXFCTnYzT2s4Tkxoajlwbm52LXFWNWpaUnE5WnJBRWRoa05GYkpDZmx2ODdIY19RZWcwMmVPSVNpVGVYN3R0RQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMkVGQkpqV3Nna2xBNUxpc0NVUkJ6RG5tdXlDNHNWM2FhTS1lemVrV21xX1E3LURsbW5ZdEF0RzUzUGVVWldSSTAxajJETHE4bjh3ZzBXOGw0Tld5b19sSnN6ajdWWEdiaERXZ01RUUxVRnYwXzQxeGlWM2FsZnVJdTlVMHJqYzdwWTlVS09aM0R1a0ZpRmJBY29Tdw?oc=5",
           "source": "GuruFocus"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "XLV",
           "title": "Final Trade: GM, XLV, MRK, SPCX - CNBC",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5sTHBYZzlaUE51amN5dE1ZT2UydEVHZGFMb2xsVkRWcUtOd1pxdEZUZU5fNEhhRnNYSlJ1MkpXcXVTYmc1SnhkSjJVYndfbVNfOHU0Q2hWLWItbzVMX0hNMVZackdxblE1Z1lDSjg1Q1pPS2l6ZHhQcV9R?oc=5",
           "source": "CNBC"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "XLV",
-          "title": "The Technical Signals Behind (XLV) That Institutions Follow - Stock Traders Daily",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSnhjRTRnSnVDTVc2QTZoUkhxME1lWi0xLVhfOHJqdEs1cUJaczdSVjVBN1I5YTNkNHE0MVptY3JYTDYwdm9mMUZMam43SEVNcEVoa1RTQk5SZFpibDVTR2U2OFR5eGdNclNFdjMyanhLUXM1R0pyeU1KRUpBQklhN21kT01jalR4WjVTZ055R19GMVR6R2lLR1hoRkRFNFlVMTlHTkVkdjA2ZkxfdHF3ak9XMHEzU1VyeU91b0VDeldxVGNBOWhBMDJMNWt6NkJSRjJB?oc=5",
-          "source": "Stock Traders Daily"
+          "title": "Better Health Care ETF: Fidelity's FHLC vs. State Street's XLV - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcDlxLUd3SHJGOGstNklYeFV4T0RJeUJhM0YwYWVNY2VhcU82RzVQYjNfT2Iwcy14SW5MVkx4d1hWRFAtUThJYXFfeXBOaVBDeHUtN2pEOUNwTVFXNXU3YzN3a2tWYmZmR3NaaUR4ZXpvNldVS2FNdEUwZW1jUUkxRmQzOElQcnUtdEpQMWJsTXJDaGVTcTZXaW1CRTAzcVhXTDFYVFF0UlR0UFE?oc=5",
+          "source": "The Motley Fool"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "ARKG",
           "title": "How is ARKG Performing in the Current Market Environment - Kavout | AI",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTlo3ZWN1dXNLMGFmd3RQdWIyOEoySUdPeDEyQVJkVmpKWkhscjI0UVZnTEhNdmNhWGNCYkpnSHhSNm5mN2V5NzV2YWlOUEZWYnRHRGllbllMcTdYS1YzX2d2bUw0dEI4SlNkaXA3VTctMkZmTU85cHozM0loejN0Y3RLekJuRlRoeEZtUnFEVWtYTTRaOXc?oc=5",
@@ -1347,15 +1359,15 @@
     "D": {
       "name": "에너지",
       "theme": "전통 화석연료, 청정에너지 전환, 핵에너지, AI 데이터센터 전력 수요",
-      "value_krw": 9145740,
-      "pnl_krw": -854260,
-      "return_pct": -8.54,
+      "value_krw": 9105970,
+      "pnl_krw": -894030,
+      "return_pct": -8.94,
       "metrics": {
-        "cum_return": -8.54,
-        "mdd": -10.5191,
-        "volatility": 20.1605,
-        "sharpe": -1.5605,
-        "beta": -0.0055
+        "cum_return": -8.94,
+        "mdd": -10.9786,
+        "volatility": 20.0287,
+        "sharpe": -1.6495,
+        "beta": -0.0096
       },
       "history": [
         {
@@ -1629,6 +1641,10 @@
         {
           "date": "2026-06-29",
           "value": 9247546
+        },
+        {
+          "date": "2026-07-01",
+          "value": 9197713
         }
       ],
       "holdings": [
@@ -1637,156 +1653,156 @@
           "name": "Energy Select Sector SPDR ETF",
           "weight": 0.28,
           "category": "etf",
-          "return_pct": -10.1459,
-          "pnl_krw": -284085
+          "return_pct": -10.9341,
+          "pnl_krw": -306155
         },
         {
           "ticker": "VDE",
           "name": "Vanguard Energy ETF",
           "weight": 0.2,
           "category": "etf",
-          "return_pct": -10.7124,
-          "pnl_krw": -214248
+          "return_pct": -11.3911,
+          "pnl_krw": -227822
         },
         {
           "ticker": "XOP",
           "name": "S&P Oil & Gas Explor ETF",
           "weight": 0.15,
           "category": "etf",
-          "return_pct": -11.1511,
-          "pnl_krw": -167266
+          "return_pct": -11.7859,
+          "pnl_krw": -176788
         },
         {
           "ticker": "ICLN",
           "name": "iShares Global Clean Energy ETF",
           "weight": 0.1,
           "category": "etf",
-          "return_pct": 9.3509,
-          "pnl_krw": 93509
+          "return_pct": 12.7063,
+          "pnl_krw": 127063
         },
         {
           "ticker": "URA",
           "name": "Global X Uranium ETF",
           "weight": 0.07,
           "category": "etf",
-          "return_pct": -8.7643,
-          "pnl_krw": -61350
+          "return_pct": -9.242,
+          "pnl_krw": -64694
         },
         {
           "ticker": "CVX",
           "name": "Chevron Corporation",
           "weight": 0.04,
           "category": "individual",
-          "return_pct": -17.9036,
-          "pnl_krw": -71614
+          "return_pct": -19.2242,
+          "pnl_krw": -76897
         },
         {
           "ticker": "LNG",
           "name": "Cheniere Energy",
           "weight": 0.04,
           "category": "individual",
-          "return_pct": -15.0522,
-          "pnl_krw": -60209
+          "return_pct": -16.7792,
+          "pnl_krw": -67117
         },
         {
           "ticker": "CEG",
           "name": "Constellation Energy",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": -10.5052,
-          "pnl_krw": -31516
+          "return_pct": -14.2842,
+          "pnl_krw": -42853
         },
         {
           "ticker": "FSLR",
           "name": "First Solar",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": 22.5779,
-          "pnl_krw": 67734
+          "return_pct": 24.2418,
+          "pnl_krw": 72725
         },
         {
           "ticker": "VG",
           "name": "Venture Global LNG",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": -29.4304,
-          "pnl_krw": -88291
+          "return_pct": -29.557,
+          "pnl_krw": -88671
         },
         {
           "ticker": "SMR",
           "name": "NuScale Power",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": -12.3077,
-          "pnl_krw": -36923
+          "return_pct": -14.2735,
+          "pnl_krw": -42820
         }
       ],
       "news": [
         {
-          "date": "2026-06-30",
-          "ticker": "XLE",
-          "title": "What XLE’s Past Dips Say About This One - Trefis",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWi00WGZaVDJWLVA5el9wMzFOSDRmRWNwOHhEcUw2UWpnTWY0VTRtSFMwSC1iUDZQLTVoVzlITDJPM2lTMDVGYTYzWklXN01lTXZjQ2dhY0tXZHBkeVpEeDIyRVNCOXlJRlQteEd6TlZ1RXhWSWVieDVNdkFYZnJ0TjdmWTEyTHdfRTZSeUM5WkFyd1VBZmw2NUhMY2FPTmM?oc=5",
-          "source": "Trefis"
-        },
-        {
-          "date": "2026-06-30",
-          "ticker": "XLE",
-          "title": "Energy Select Sector SPDR (XLE) Pivot Points Analysis - GuruFocus",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQm1nOHcwNEkxclBOdmlRa1EwX0pMbW5FeEptSzJkUVhESDdkS0RTbUhuQTE3d0IxWDlDM3l4cjBzVUsxSkUxRkdTRWpqZ3otUHRtOG1YcW9URDJIdUdWVXNCM1I4OHRsT28tTTZlcjlmenpuMks0RjI4S1o5WG4zdXpBeTFORjAtYXF6dnVfVlRiMWM5?oc=5",
-          "source": "GuruFocus"
-        },
-        {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "XLE",
           "title": "Small-Cap SKYQ Stock Is Crushing USO, UCO, XLE: What Investors Need To Know - Stocktwits",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQS3ZSRXlzYk5FMFQzeEpMY1FXZUI5aVhwUy1zd085enVfamdkNGg2OUpoTnhLbWZ4NDUyLXVVWVhYWU1sNXRDeW9HY1ZKUVRCNXJMLWtHT09EbnREZFpnMmNyWHF6U0FqbjZoM0I1Ui00Sk1pQVlpQ2JZZk9POGRvWmwxelZMbUJLLTBmMklOdTduaFdFZnJ4VzVid2tNdWlqTVE4OFpJYVRxMDNpT2g0ZW1xamtHUDhYOVE?oc=5",
           "source": "Stocktwits"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
+          "ticker": "XLE",
+          "title": "What XLE’s Past Dips Say About This One - Trefis",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWi00WGZaVDJWLVA5el9wMzFOSDRmRWNwOHhEcUw2UWpnTWY0VTRtSFMwSC1iUDZQLTVoVzlITDJPM2lTMDVGYTYzWklXN01lTXZjQ2dhY0tXZHBkeVpEeDIyRVNCOXlJRlQteEd6TlZ1RXhWSWVieDVNdkFYZnJ0TjdmWTEyTHdfRTZSeUM5WkFyd1VBZmw2NUhMY2FPTmM?oc=5",
+          "source": "Trefis"
+        },
+        {
+          "date": "2026-07-01",
+          "ticker": "XLE",
+          "title": "Technology Giants Struggle as Old Economy Sectors Shine in Share - GuruFocus",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMmR4U2xIbEFLcF9pdG9SZlhEWGd6N2ZHMDVnakhYcWlaQ1Q4OWlLSk15ZldqeVoxLTJyZmp0R09fRG9MLWtNMGMxSUthcmVlbHdDN3R3U2VEZ241SEJTQVpMY0JvWl84SERSbjlkdXJsWmZMaEgwYTBsdzRQMVdqTVpwd19qb25TU3dVcUtkeERTRVBwYmRabG9WMFV0YjNhdnp4N0oxTkFmanI5VjlHWTF2QUhHak9k?oc=5",
+          "source": "GuruFocus"
+        },
+        {
+          "date": "2026-07-01",
           "ticker": "VDE",
           "title": "Should You Invest in the Vanguard Energy Index Fund ETF Shares (VDE)? - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTV93TkNMWXBCYTZLUDJ1dENSbVNjY3hMOTlyNzNQZkh4UGNsUlY4SUhscm1nMHBLaTAzYmE5Xy1WTHFIRmZlTVI0d3pmcEZ1OGczbnFKR2lweTJhNWxTNTFxMXl6eUJfem9nVUhyOXYxbmxrQ2JKVzQyQUJRWFJheW1MTU41eVBfWFNRMldobktvVTRFUEVKOTdzLXNHc2M?oc=5",
           "source": "Yahoo Finance"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "VDE",
           "title": "What Is the Vanguard Energy ETF (VDE) and Who Should Buy It? - The Globe and Mail",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQWGFWc0VQN0VzTXgxcTFFdzBPV1VLT1NhT2ppWUV3N3FIdzRQSklnX2FDSTlyNGUtT3kxUHlNWHE0aFVuY2otNWlVNXc0VFNDMEgzb2xlbVc3Q29iaUFhNGlVN25aMG9FLWFnV0tEWmpNNUFBaFozMFZmTkk0dHo2eDV1SzZpamFTT0JLckJxMTY0bGVyS1hBa0ZPbjFNR3lNR21WUWNpWjU2TGJJYnFPMnBlUkNqdFpzc2lnUXB1dl9ra3N4VEExd0RwZVh1STNFOGNaVDlrWDg?oc=5",
           "source": "The Globe and Mail"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "VDE",
           "title": "Understanding Momentum Shifts in (VDE) - Stock Traders Daily",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc0VhOEJJVDh4NTJXQ3BGSkplbEpxZnJCYlpQSUVNTlJhdnVTWHRZZXhRSHhMampGLU1TOGZIX09jcjZ3Tk1rYU9hV2ZmR2tJNTBVTnM3dW1jLUZmR25DVVpwVTJ1RFhGMm42WkpsN19PUXNqWTdXbGs2c2tGOU5QZ2toQ0dGNEk5dEJHRk1pMjVucnRaQXR3RkpoUk1IRS1uZUhqY0hUeTVHOGlTSFN3cGhVRWxPcXc?oc=5",
           "source": "Stock Traders Daily"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "XOP",
-          "title": "How Spdr Oil & Gas Exploration And Production Etf (XOP) Affects Rotational Strategy Timing - Stock Traders Daily",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxObzlQMUUzcVRHN29DTU4teGgzWHFjSFpRMzlLLVM4TmRPTG1FOGVkLTU1TEEzbTluNDU5RGt1YkpuUG5JRTB0V2ZkUFdlU2xjUy1nTVNZWWlfQ2RDa1pDN0xfd28yWUNyU1RmUmxZNVo1Um1Pa25MWUhBbVhIc1BLRVJQMHBublBkSTlnX3ktdk41NnpLQTYxQUJpSWlOdGdQQ3NKZnlOMGZMV0dZeUxBdVA1SVRYYW1XaEVfOVUxMUxtbHdKTnZORkpEWFVrbDl4cG5ZOVhNdEd5eXdGSnRwVEZZS2doeWNOR2RTMzMwaWtrQWdCbjlHWg?oc=5",
-          "source": "Stock Traders Daily"
+          "title": "XOP - State Street SPDR S&P Oil & Gas Exploration & Production ETF Stock Price and Quote - Finviz",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE80TnFBNFhnN0ZNMUpJaEtTcFBzNElqQmg4NlV4elVmLXpDQzhmUWFxbXV3eGplWVZwV21RVGxBdmFKWldV?oc=5",
+          "source": "Finviz"
         },
         {
-          "date": "2026-06-30",
-          "ticker": "XOP",
-          "title": "XOP vs OIH: E&P or Oil Services for Energy Exposure? - 24/7 Wall St.",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPU29lakpCS2Q0LUVSVWVrNERkUUJCa3lwZHBUY1NvdnY5b2ZfbUJoM19DeGRaY3lTZXg1V0NPV2F2aTIySFJzaDI4aHd0NDM1cHRVRDZsOGNPR2d5clhrb2dOaS12R3o5b3M1TFFTNXhvTzZhOWRncXlaczlPMTNWanM3VEY0bkhMUHprcWFkcE1FTjRabWlMbw?oc=5",
-          "source": "24/7 Wall St."
-        },
-        {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "XOP",
           "title": "XOP: Re-Rating Non-Conflict Oil Stocks (NYSEARCA:XOP) - Seeking Alpha",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaDN4WXZNM2NFMFVMQUNqN0hDTEhpNjFPTnBVTnZiT0c3d1RtUjMzVHFzTGVDV0luTzctV29jWGdBQW5aMmVrOGJtNDM4THBNdGlKRHU0RUJDYmVPcjcyS3JhdUFfSV9qTmgxY1BBN19YUkoySlBPblE5N2pfcDZndTB4alQ?oc=5",
           "source": "Seeking Alpha"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
+          "ticker": "XOP",
+          "title": "Oil Explorers Are About to Get Absolutely Whipsawed and XOP Captures Every Single Move - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQ1VtcDAwZ3lWb1ktOEw4VWV5ZExEdWNmREJhWlZGYUdOdm5UVnlpMC15WERaN01iLWd6aVgtbHM3OHkxblYzdFNvR25tc1ZuRF9uNzVQalRiSV9XYnh6UnpMQW1PSFFZdG83WXczeDd2RGtwLWZkYzFqQURnTnBkaWNYMkFiMjg3bUpwcg?oc=5",
+          "source": "Yahoo Finance"
+        },
+        {
+          "date": "2026-07-01",
           "ticker": "ICLN",
           "title": "ICLN’s 45% YTD Surge Marks a Regime Shift: From Policy Bet to Infrastructure Play, With a July Deadline Looming - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORFFrbWE0RGJoaG9aZ3U0cUNuX3J2M3JzU2IzWXhTeC1mcmZaRU41N2t1TDJfV0FaNUk0N2w0NW4yekt6aGxua0ZfVlBYbjUxeHAzM3IxV2pWVzhELWxJN0xqdHBIbFktS09uN2k5MVhGamhsVDc0WXNWUEx5eThUaVQwQVdfOEVYRDBLcU80ZUVMUQ?oc=5",
@@ -1797,15 +1813,15 @@
     "E": {
       "name": "방산·우주·사이버보안",
       "theme": "지정학 리스크, NATO 국방비 확대, AI 기반 사이버 위협, 우주 경쟁",
-      "value_krw": 11247650,
-      "pnl_krw": 1247650,
-      "return_pct": 12.48,
+      "value_krw": 11497510,
+      "pnl_krw": 1497510,
+      "return_pct": 14.98,
       "metrics": {
-        "cum_return": 12.48,
+        "cum_return": 14.98,
         "mdd": -6.8501,
-        "volatility": 25.3949,
-        "sharpe": 1.3259,
-        "beta": 1.1574
+        "volatility": 25.4991,
+        "sharpe": 1.6087,
+        "beta": 1.17
       },
       "history": [
         {
@@ -2079,6 +2095,10 @@
         {
           "date": "2026-06-29",
           "value": 10990012
+        },
+        {
+          "date": "2026-07-01",
+          "value": 11227783
         }
       ],
       "holdings": [
@@ -2087,175 +2107,175 @@
           "name": "iShares U.S. Aerospace & Defense ETF",
           "weight": 0.25,
           "category": "etf",
-          "return_pct": 7.4066,
-          "pnl_krw": 185165
+          "return_pct": 8.8843,
+          "pnl_krw": 222108
         },
         {
           "ticker": "SHLD",
           "name": "Global X Defense Tech ETF",
           "weight": 0.2,
           "category": "etf",
-          "return_pct": -18.6868,
-          "pnl_krw": -373736
+          "return_pct": -17.2877,
+          "pnl_krw": -345754
         },
         {
           "ticker": "XAR",
           "name": "SPDR S&P Aerospace & Defense ETF",
           "weight": 0.15,
           "category": "etf",
-          "return_pct": 5.8509,
-          "pnl_krw": 87764
+          "return_pct": 8.4534,
+          "pnl_krw": 126801
         },
         {
           "ticker": "HACK",
           "name": "Amplify Cybersecurity ETF",
           "weight": 0.12,
           "category": "etf",
-          "return_pct": 35.6576,
-          "pnl_krw": 427891
+          "return_pct": 38.833,
+          "pnl_krw": 465996
         },
         {
           "ticker": "BUG",
           "name": "Global X Cybersecurity ETF",
           "weight": 0.08,
           "category": "etf",
-          "return_pct": 47.2156,
-          "pnl_krw": 377725
+          "return_pct": 51.9093,
+          "pnl_krw": 415274
         },
         {
           "ticker": "LMT",
           "name": "Lockheed Martin",
           "weight": 0.04,
           "category": "individual",
-          "return_pct": -17.7164,
-          "pnl_krw": -70866
+          "return_pct": -16.5052,
+          "pnl_krw": -66021
         },
         {
           "ticker": "RTX",
           "name": "RTX Corporation",
           "weight": 0.04,
           "category": "individual",
-          "return_pct": -3.4381,
-          "pnl_krw": -13752
+          "return_pct": -2.201,
+          "pnl_krw": -8804
         },
         {
           "ticker": "CRWD",
           "name": "CrowdStrike",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": 89.0404,
-          "pnl_krw": 267121
+          "return_pct": 94.1881,
+          "pnl_krw": 282564
         },
         {
           "ticker": "PANW",
           "name": "Palo Alto Networks",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": 111.1825,
-          "pnl_krw": 333548
+          "return_pct": 116.92,
+          "pnl_krw": 350760
         },
         {
           "ticker": "RKLB",
           "name": "Rocket Lab",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": 48.3427,
-          "pnl_krw": 145028
+          "return_pct": 53.852,
+          "pnl_krw": 161556
         },
         {
           "ticker": "KTOS",
           "name": "Kratos Defense",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": -39.4115,
-          "pnl_krw": -118234
+          "return_pct": -35.6562,
+          "pnl_krw": -106969
         }
       ],
       "news": [
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "ITA",
           "title": "2 Turnaround Defense Stocks Hiding in the ITA ETF Tell a Very Clear Story: The Iran War May Not Be Over - Barchart.com",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVW9mNU5MbzFCaVFjS1h1eTEzbmYxQ1V5YnRvdWpmTlN5TXdFUktvUFdtVVAwRVZzWlNYQmwtOTlNUUxjaXFSbnVWMkxqX1IzdHRnWXRlblRBZkRfQnd3U3ctbWotam12bkJLSkhGSXBkNElRMFRKMUlJX21BQXdjMUNMZG5OOGU5d1lZMUxmLVFkVlpkcTU4M2lMLTR5ZzFTRV9BOGhTU1RWeXVfYWZMM0lPTnNsY3ZYUFI0Z3pIS2ZKVUwwU3Yzb2FmRVZUelktZ2h1Vmx6clBDWXlmY1Nn?oc=5",
           "source": "Barchart.com"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "ITA",
           "title": "Should You Invest in the iShares U.S. Aerospace & Defense ETF (ITA)? - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONkhZbDFBcUpuRWJhanZIQUhOMUNhdUFkeS1BckV3a0ZkMUhxSDNpcDlYWmhmdWRjeTZRNEE4SFBDdFhMR0RhclhYSFEyT21YaWdZTnd3R09Mak1odks5NmhkRjlaNjlsUXQ5WlM3WElhMkN5dFA2SEgzN0VOVzJTWGRZRHJJZ2M?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUzRoMjRXbnRVVXBZSURpMThKTlN3ZEZadnd6WWpkU1lnT0g4ZjRjVmJQQnpScm9wR1BaX2xmLTNEX05tVnY5T1NfQ0lRWjlMTGpkbXBHMU56bDNfMEM4M181WThza0l6Q0o4U3RVaFVWZDJBVHJWREhiWjlNWEhUNzB5MDRxcU0?oc=5",
           "source": "Yahoo Finance"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "ITA",
-          "title": "Why This Defense ETF Could Keep Rallying as the Iran Conflict Escalates - MarketBeat",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORGs4a2VUUmFsajlFYWZ3blV1OXdGaWFsOGE1a2lxaUVOa3pZWlphT0RBZG9VLTJaakpYdkdIa0YtX3hxRnVYc2VIS2NjS0hvVHhicGpzcGQ1aTJGemtlY1NaUXF0aTBCVmUtQ3ItU0MxeUI1NXE2ZmROaVlZWWVPNEZjRkhXY0RWb3lNZ1ktYkFlMkUxQ1hTbEVLc3ZaTGJSVVZkV2QwaGIxYmNL?oc=5",
-          "source": "MarketBeat"
+          "title": "ITA - iShares U.S. Aerospace & Defense ETF Stock Price and Quote - Finviz",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9UdEJ5eThRaW53YU1BVTdyYlU5dGtjZ1NvMFBHVmFJWnNGRC1pLTJ4ZHlLWE05MVdBWkhLR3hsWXRvVE1C?oc=5",
+          "source": "Finviz"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "SHLD",
           "title": "SHLD: Global Defense Stocks Hit Key Support, A Rebound Looks Likely (NYSEARCA:SHLD) - Seeking Alpha",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWGJjV1hkcHdqc1JmandNR1dTYWNFcFVMXzVkOWVlMVVPMHRDRmNSX0QzRmRhT205QmRucDFER3JIWG9HQ0pOajl6NS1Fb1JNZ29GU0l6YV9wdHVtYmtybGJieDd1NEMxQzBXVnFqMk1hekZyUmJ4M3ZMTDlGZ0c3ZktnMERNZ0xONlVnTUczVlRya29QQXY0V3p5SnVfNTQxVlhhNGxTQ1BtZw?oc=5",
           "source": "Seeking Alpha"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "SHLD",
-          "title": "Global X Defense Tech ETF (SHLD) Stock Price Today & Analysis - Gotrade",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBiMlVOLWRldkFUbTB5UmdsZFUxOGJXUkJCOHkySzNVT0U5YjJJQXZ5c0xfOFZoekxvMllwanhsak1kUjdVbDJYTzAwYVNiQzRyX19TeWdSYw?oc=5",
-          "source": "Gotrade"
-        },
-        {
-          "date": "2026-06-30",
-          "ticker": "SHLD",
-          "title": "Defense ETFs: SHLD Has Lower Fees, PPA Boasts More Holdings - The Motley Fool",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdXBvMGw5Z0VTMkxuWHpHTVRKSVVpcEhYNzV1cV9ZbW04LUo0SUNUV2FjZk1IRnAwOVNPblB2TlcxYmFBRXFqZm56UVNKUjlBb1JkV2xndi1jV0x4Y3BWYjZEZjJvdEpQMjNHWDltNk5sUlNoVXpBRTBzZEYxNFdxZ1R3N3h0RXAyWnJycFFqc2xTNjVINDM5MV9YVjNMU0pEQVR1blNVVQ?oc=5",
+          "title": "Which Defense ETF Is the Better Investment: Global X's SHLD or iShares' ITA? - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ2NmcXlqWVNidGdRb05LdGVqTl8tWVhHLUlaX0JmSmlXMHcwWTYxQU02YXcxMENVN3BabTduNl9YVWgyNWt0UFozaTRSWkYySmlVc2VhdjNrQXUyX0NDVHhRYTdDeFh4S1Y4MVp1T0tHRnY1d3MyMzNIbDUwWU9kYkZIRnlKNUNQV00xdXhDUlQxbXdNbXFMVl8xVDNOTHpoazlFMEhiaU8tYzc3bk02T1E1TmxoVTNpa1ctZw?oc=5",
           "source": "The Motley Fool"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
+          "ticker": "SHLD",
+          "title": "SHLD vs. PPA: Which Defense ETF Wins the Global Rearmament Trade? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQakVRUFpGNE9hQW9YNmE2NElOWHlYNGVVTzhnSmZJOVFEdlp0YmZRRFAxV0VnVG9DN3lsZGV3c2lXbjZOZjdvUFM5aWVTSHFsT2xZVTAxWnZSTkg0VkFFaE1DUElRWmt3SFc3Q3loLTNrNWwxeFlPSDdScUVPZVNfLTVjQnFUWWFxWmE3d2plZzJzZw?oc=5",
+          "source": "Yahoo Finance"
+        },
+        {
+          "date": "2026-07-01",
           "ticker": "XAR",
-          "title": "Why Is CAR Stock Jumping 2% Premarket Today? - Stocktwits",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPV0N1bExaSllILXJyam1rd0pwOTQxVEVEX1FxUG9oUEwzbE96bnZyMGhzT3RDczBYOExPNXFpMGdFc0JKLVg4NEIyczJwb3VDejRrWnJSdUlmcDlxZE90Z1N1Q0NwTF9GaUU0TUJtbnpNVnFoeDE4U2lIYjFLakpoT2w0bjBKYVJuc0hoUDZ2Y3JmVDYxQl92WUtUY1dWMWRSemdjbTNtcw?oc=5",
+          "title": "International Hot Rod Association - IHRA",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbDVTSU0xcDktWmNJWnBIQmd2Z0Myc1JvaWFMVWxhb2c0NzNOUHNrVzFvRklyalBYZDYtTnlQNVNyLVhFSy02VzFJdGpZdTRrODNwbFFYSVJqdGZiNjJ3c0FKd0RIUHNBQ1BzZk9SdXlmNUZYMU5WUDVmMW9yWFR3Qk90Nmc?oc=5",
+          "source": "IHRA"
+        },
+        {
+          "date": "2026-07-01",
+          "ticker": "XAR",
+          "title": "CAR Stock’s Relentless Rally Gets JPMorgan Cautious – Analyst Says It’s Trading At Unsustainable Valuation - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPZTAzRXU2dnRiWU4zdS1nMEN3RmtVZXpiWnFLbklobVpJZExUTENlY0d1QjQxc21kcTZwa2ZDaWpwdkp5b3hZN2dqZlNlTTVYVWdReE5ROVNYa2hhX3BKQzBNUGo4c0Ruek5QM1Fld1JzZ05MZ1VxQ2p4WU15ckRYOXBLbzlWUXpVdkZ3NF8xSkhSdENIT1hwdi1JYUZWRTBVSGtGcGItYUh6SzlvS1Y4emNZUEo0MXZ6WGo2Wm10THpxbmV2NWpiNF9pX0UxeWM1ZTJCZmRQRElFb0NvZHR0bnRvQ3ZOUHBfa2RlYnJ0TWc2WExicTdnUWhja01Wdw?oc=5",
           "source": "Stocktwits"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "XAR",
-          "title": "Why is TUHU Car stock surging today? By Investing.com - Investing.com Nigeria",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaU5NTldXbDVIcGpnT0JpLUtUejNyd0ZwQXMwVUtQd0pqcm1UbmdXMkFDYkpRMlJHR01XajkwTHZYbUdFSTM0VmJXa0U4TkFtWG9CZjFiNl9iS2Zqd3hlUmpHdjVRRk4zblFsV3ZvMlpnZ3ROb1BBaGNSaHJsOUNMVmxyZzg4d0JYWC0tRDlFTDhlTjZiSEp2aC1ST2E?oc=5",
-          "source": "Investing.com Nigeria"
+          "title": "(XAR) Movement Within Algorithmic Entry Frameworks - Stock Traders Daily",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbmQ0MTJMS01aTDJTa1ctMWRfTjZ1TGdLbzBaMUVVX0xJWm9LNEU0SDg4cnZKM3hJTElyWTFWVVo5U2hUTFNLMFFzWWViMkZHU2pVc1VDbVBaSThaaTI2NkVUOXM3Y1JfQkVrbWlXMG9Zc29GVVJDZmlrSl9GY2NtZ1FqT3pVNjlBR2RNTHVGM0ltWmMtZDk5WDRHTS1uMkRTbzBHM3FTRG5VbTNZMGMyMFBWNDlodUNqdWwza0F6VnZPT1BQNlE?oc=5",
+          "source": "Stock Traders Daily"
         },
         {
-          "date": "2026-06-30",
-          "ticker": "XAR",
-          "title": "The charts in this car stock look attractive after months of trading in a range, says Jay Woods - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVmtiakY1SkgxLVBGeHR0eWNXdW9mcDJrM0hZRnAtNk1VSWYwekxIRFpLTHh5akROalhxT1d3YVIwMFNVVm50X2xPWE5INy05bGhFdU9xYkhYRWUycVFqRGltVmdSQnBkZXNYb0ZOa0pQSzlmdGVlUnMybmFCR042cGxoQlVSQjdpT05yUjRFNkFSZlIyMlVUYUZBZzlsQ1VaZUdpdW1BbVJybFZydjk2WFFfNWdYRHFzcWxVTk1HeVkzdm1CSGRZNktPNA?oc=5",
-          "source": "CNBC"
-        },
-        {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "HACK",
-          "title": "Software stocks just passed a big milestone - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbmJ1eTVsMzRJVlVUQWlwVm1yY2NKcVpOUXhHTHVnZmQyZkh0S0Z1czEzeDdnbFlNVDZsMklyWWtoZVk1VU8yZGI3MEplakxpaXZIcTQ1dkktTWlCUWJoZzJKbEtGOGIycW85VjlPR0V6aUxvQzhxWEVyNmU1WFlsSm9OekNYZXPSAYwBQVVfeXFMTnFtX29GRnVZYTJ0TzBwanFxZDNVOU11QmtMX040Q0tJREF2bTluU3dYaERJUlBBWXBQV3NwR2tfampfdWRjS1ZnaVdwa2JRR0dWbWMyU0Q0S3Rfc0FaNFgzVE5zWkNXeHdpd3EtdzRuQ010NEJwdXZVN1Utamt1YUgyOERId3VGRTRXQUo?oc=5",
-          "source": "CNBC"
+          "title": "5 Things to Know Before the Stock Market Opens on Tuesday - Investopedia",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZF81NkpvSm1Kcmt4em5MRnlKa1hyb3ZsRGZOVGNKRkN4ZDluMEo1ZWZDUVhNZ0NRZmpoQzhzSWJodUV2Uzl3b1dpUGhUUEpQYTFxTC13Q1h4dUZwNThtVlFmSGdzeDNOT0swd0YxbmZWNUpIcGdrRHE2U2NneWRwMnVqSU03OTZQUmxraGNKQ1IySDFack9kUXk0SHhuU2dlV2xSdDRoamw?oc=5",
+          "source": "Investopedia"
         }
       ]
     },
     "F": {
       "name": "금융·핀테크",
       "theme": "금리 사이클, 전통 대형 은행, 디지털 결제 혁신, 암호화폐 금융화",
-      "value_krw": 11110370,
-      "pnl_krw": 1110370,
-      "return_pct": 11.1,
+      "value_krw": 11049160,
+      "pnl_krw": 1049160,
+      "return_pct": 10.49,
       "metrics": {
-        "cum_return": 11.1,
+        "cum_return": 10.49,
         "mdd": -5.1183,
-        "volatility": 17.8924,
-        "sharpe": 2.0932,
-        "beta": 0.7789
+        "volatility": 17.8147,
+        "sharpe": 1.9531,
+        "beta": 0.7676
       },
       "history": [
         {
@@ -2529,6 +2549,10 @@
         {
           "date": "2026-06-29",
           "value": 11150136
+        },
+        {
+          "date": "2026-07-01",
+          "value": 11087568
         }
       ],
       "holdings": [
@@ -2537,148 +2561,148 @@
           "name": "Financial Select Sector SPDR ETF",
           "weight": 0.3,
           "category": "etf",
-          "return_pct": 9.0097,
-          "pnl_krw": 270291
+          "return_pct": 8.7865,
+          "pnl_krw": 263595
         },
         {
           "ticker": "VFH",
           "name": "Vanguard Financials Index ETF",
           "weight": 0.2,
           "category": "etf",
-          "return_pct": 9.3815,
-          "pnl_krw": 187630
+          "return_pct": 9.257,
+          "pnl_krw": 185140
         },
         {
           "ticker": "KRE",
           "name": "SPDR S&P Regional Banking ETF",
           "weight": 0.15,
           "category": "etf",
-          "return_pct": 16.1797,
-          "pnl_krw": 242696
+          "return_pct": 16.3351,
+          "pnl_krw": 245026
         },
         {
           "ticker": "FINX",
           "name": "Global X FinTech ETF",
           "weight": 0.15,
           "category": "etf",
-          "return_pct": 6.5436,
-          "pnl_krw": 98154
+          "return_pct": 5.0191,
+          "pnl_krw": 75286
         },
         {
           "ticker": "JPM",
           "name": "JPMorgan Chase",
           "weight": 0.04,
           "category": "individual",
-          "return_pct": 12.6505,
-          "pnl_krw": 50602
+          "return_pct": 11.946,
+          "pnl_krw": 47784
         },
         {
           "ticker": "V",
           "name": "Visa",
           "weight": 0.04,
           "category": "individual",
-          "return_pct": 12.4737,
-          "pnl_krw": 49895
+          "return_pct": 12.9477,
+          "pnl_krw": 51791
         },
         {
           "ticker": "COIN",
           "name": "Coinbase",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": -16.234,
-          "pnl_krw": -48702
+          "return_pct": -19.2499,
+          "pnl_krw": -57750
         },
         {
           "ticker": "XYZ",
           "name": "Block (Square)",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": 30.2722,
-          "pnl_krw": 90817
+          "return_pct": 26.8993,
+          "pnl_krw": 80698
         },
         {
           "ticker": "HOOD",
           "name": "Robinhood Markets",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": 47.4088,
-          "pnl_krw": 142226
+          "return_pct": 45.165,
+          "pnl_krw": 135495
         },
         {
           "ticker": "SOFI",
           "name": "SoFi Technologies",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": 8.9222,
-          "pnl_krw": 26767
+          "return_pct": 7.3653,
+          "pnl_krw": 22096
         }
       ],
       "news": [
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "XLF",
           "title": "Key Pivot Points for Financial Select Sector (XLF) - GuruFocus",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUXhJSFROQXJyekU1eXlOWHlXNEZqMFNuZ3U5RFloZXNIZWVLNVFJMjZaN2FMRGRJZVRYRTZCWDRiQUYzR1RYMUlxUERCMGt1Y0s3SlA2X081dW1OSVlESGJ4ZWRRQmY0NGs2N2JncEtraVJoNWlhNjhKbDF3SmFhaXhKZGI3UXlMMFpiTkpndmc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaFNXX1dENkZ1M1F6Wmdua0RNN2pEOEhsQXlLYjJXdC1rM2Y3NmZzV2RxYUsyZzRneF9BR2xTOE1lQkVrN1V6eDNWQzE4WkRsRU95X1dwNHR6OFFHa24xVXhuWVl4QmpiWHZFdTBEV3JEaENabWNLcEZvVUREdVZQNDRKT0k2MEhoOFA0SEl2RDM?oc=5",
           "source": "GuruFocus"
         },
         {
-          "date": "2026-06-30",
-          "ticker": "XLF",
-          "title": "XLF Top Holdings List & Exposure (Financial Select Sector SPDR Fund) - MarketBeat",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wcUxZRzJmc3k2U0RwOGdidC1sWjNKYUFlWjdBZHpVZ0tka1R1VEk5RlBhMmdhV0ZPQzhYT1pKMFdVWEpCc1VqQzZsQlQ2ak5UWHpaY2lYZ282VlRvbXAtemVHdTRmVlE?oc=5",
-          "source": "MarketBeat"
-        },
-        {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "XLF",
           "title": "Which Financial ETF Is Better, State Street's XLF or Fidelity's FNCL? - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWHVXM1ZHUncwNy1RYUZLdFBPTVo4TlFiT2JKUUVCc0c1eTNfdDdwZTFaclRBUURILTBBM0FIbXl2YjdTdTY5Q2duMHVHY056N1FtV2N5YW5Mb2tROTI4dVlfLTUtR29XVFNDR3FhODJTZk5KLWg0ZHEwNHoyRWRzVkdYZ3lEZFA0QTJJaGhBWnVkb25HeWFheElIcXY2OXM4?oc=5",
           "source": "Yahoo Finance"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
+          "ticker": "XLF",
+          "title": "Which Financial ETF Is Better, State Street's XLF or Fidelity's FNCL? - The Motley Fool",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObHNBbEhYb2YyVHN2dEdZbWdIM29oLUhLR2pEV0dCOEZYZ2NCcFo0X01od0dpTDJadE9EazJNd2pXSGw3ck1fcEJkeFFxVlkydW9QY3BoVG5UY0hyWnRFamkwSlYzLUFDYTIyeEdOTUlvVWxlaElzYk5NZmFiSkxESGFzWWFnZW5VN3ZKMVA3c1NlMnpfYjYyYXdwSEMzekhxRFpsM09VTnhPc0xIWHlPeFFobHM?oc=5",
+          "source": "The Motley Fool"
+        },
+        {
+          "date": "2026-07-01",
+          "ticker": "VFH",
+          "title": "Technical Reactions to VFH Trends in Macro Strategies - Stock Traders Daily",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdmN5M2xNV29lS0NkRE1YcGVuRTV2cUFpUExYSjFKSmdQalFqYk5taWg4X21LeUIwMXNIdVR5alN3RVlReHA2OHpNZHVIS0dXYVlpdWl0dk5VTWF2VFFKcUU3OU5RelFWSC1sbF92Q1A3OEtvdjM3eTBSOThjU3oxYnFfd1pjZmJOeC1ld1JFSjB3QkJRYk1sSDZ5eG9WWlVwanBVRnUySm9TVENYNWV0QWl5LXlZTHlUR3kzQ2h3STl0R2ZkNjUzTVRFSTZQZw?oc=5",
+          "source": "Stock Traders Daily"
+        },
+        {
+          "date": "2026-07-01",
           "ticker": "VFH",
           "title": "Vanguard Financials Index Fund ETF (VFH) – Comprehensive Investment Valuation and Sector Exposure Analysis - Positive Surprise Momentum - lwvtexas.org",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQU3E0aFEwazV3dHBBRm4wRWtfRXJrRnN5Q2ZOc1FJMm1PdmdlUURTcWYxNVhhVVBsa1REbllmOU1yTUtsUXlENWZYM3djREQyMnZNYkdLeFlEVWhZekpEbDdvTFRYOXZJWEc4MmVDZ0JyN3JDbzNleXp1Wk5MVUo2OVp2bk1rOXRtYmRYMFBaMEdkeE9JZ3JlMFd5N1NVaUFYVU82WHVLbjRMMjcxeUQ3WnZweFViWnFPXzB2UXBuWEFrWmhhSG1IeEwzbWdhVGJ1SXpMdFg3RnhkbF9o?oc=5",
           "source": "lwvtexas.org"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "VFH",
           "title": "Should You Invest in the Vanguard Financials Index Fund ETF Shares (VFH)? - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa1h2NHB0UmxXellBeUIwQ0tSTmp4RHBhOU4wazVidFNmNXRaNFdDTFZvb2JCdW1ncmhOcE5wRHF6Q0NEZzB6em1lSm14OHBvNDBnM3hNZ3JZaHgzdmhpZ2daNVQyWlhQV2hfSzB2RHI2YWRVeHF3bW43cTE4RGQ5VEY5ZUJNMGNBX0pJRTBadzVETmhtNHJqZmpmcF92dlM0ZEYxWg?oc=5",
           "source": "Yahoo Finance"
         },
         {
-          "date": "2026-06-30",
-          "ticker": "VFH",
-          "title": "XLF vs. VFH: The Megabank-Tilted Fund Against the Broader Financial Sector Alternative - The Motley Fool",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeXNNWWludXlfZ2pfYXFLTDRtRncwSjczM3ZWRS16b1ZjN2psN2xoVzZwamFqZFBlU3NlcjlEV1V3d0pMcVltak1Cdk9jaDJBeFBnQnlZRWtTZ25XSEpsLUY2bEMtd0g4NldYeGptLVhBM2thbWZ4Ml9ySXl4Y1RmSVRtNDkycm1MVEFqNE5LLXJyVVY0aXZRWlB0Rk83YlBaQzFpeDRsbmpDX3hTUDFFN2NyRlNhenFBUmo1b1dvR3J5cUVIdzhfNXh6RQ?oc=5",
-          "source": "The Motley Fool"
-        },
-        {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "KRE",
-          "title": "If Rates Fall Further, Here’s What Happens to the KRE Regional Banking ETF - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY1hFRlJGa25oWFdEY0tYeFRJdFhhMnIxbU5pMmJkem16Z3k2MW9pSVJhSG9oVUhvUXhMY0p3TE5kU2RNSHVXTHItVjV2UjY1SkFsNDFXZlVVMnFYRmczSDhGNEdNeDhIcW92S1FLSXlDM2FnbXVaQ1FDN1ZQUVhVS0JsRVJLcXVmZ3JjcHF6RmZha2ljY1F1bkRnTQ?oc=5",
+          "title": "Is State Street SPDR S&P Regional Banking ETF (KRE) a Strong ETF Right Now? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeGgzMi1VSTFlcDZucnBXSUo2Z05sRFRNNGVyR3BMM3NweEU2amU5akNkVUdXdEdJRmo2U0FWOHBBcy1vTEpPeDZ1dGN4aF9EWHdlVDNoX01RNVpDN3Z3S3Mwa1RxZ002MmdmMm8yQ1dfSEtCNGh5VjA1TlhHUzJrMDVsaHljTkdvWC1VRDJVN25NcDVoekpfbQ?oc=5",
           "source": "Yahoo Finance"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "KRE",
           "title": "KRE - State Street SPDR S&P Regional Banking ETF Stock Price and Quote - Finviz",
           "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE80bHdUVmZFSk5IV29NME1LbTJPR1UyMmlQZmhteTJ5Njk3WHZPb2M0Y0FJbzlEaHk3N2phX0N6SU1KX3RR?oc=5",
           "source": "Finviz"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "KRE",
-          "title": "Vehicle fire leaves one dead in Forest Lake - kare11.com",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUU9IWUNMTmdZb243Q0gzS2NjZUtCNzlJdVhMZldLZGtuTWctRXdPdzdPSnM4UmdZWkdQZjduUVlkZ0dnVEFwSGxuQzJFTkpVOXpBeDg3c3p6cGJQN1cxWWw2MEQxVDJsWm1FU2J1Z1piUnRvTFNrY3Ytc01QUUMtdlB4TUVyWE9UYldwNllpSi14eWFYWWZWRXpNdWtNaVh4d3hrQW55SDhsTjBrd1BsUUhja2Q?oc=5",
-          "source": "kare11.com"
+          "title": "This Financial Bellwether Bankrolls A Breakout - Investor's Business Daily",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRUptSHlNb2hkMVhUNl9NSTktR05oSTRqOXRibjhDZWpralhva1pvYkZPaUFiZHhEODNsYzducGQzNUZldXE5ZWJJZ2JVX3RpWnRjV2h3T0tUUkZUd3VRU2haZjQ3VWlVSlJJOVZsY0RJYlZteWtoUV9tZUtIY1k4RXlRQzBMUzZWVXh4STg4c1V2NWFkLUU5enRDWUM1aXhzLXhORnRoMUQwM0NTenRkM2xWU0k2UUFZNnFxLQ?oc=5",
+          "source": "Investor's Business Daily"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "FINX",
           "title": "Understanding the Setup: (FINX) and Scalable Risk - Stock Traders Daily",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVHNVUjZOMjdOYmdRXzJTeVBLVnQwNi1UVUUxdjhrUFRaOENmaEtYU2JtOWpGNF9LNk9ublN6cjRLb3VVMkJpc2hneXZleXFMWVpzdC05eGIzdmFRZFVjUmIyLWNSVlFLbjlRQ0QtZGtSejJqNXVrdnpZckRLSXNXcTM2dERaOVN1N1dLZUJGWTZ6WGlJT0VJRUVOcmpxOWlPSUt3UV9iTHI2LWh5dkk0U2ZvUDhSdWhNVXJtV3dZZmFDX2tkSVRZ?oc=5",
@@ -2689,15 +2713,15 @@
     "G": {
       "name": "중국·신흥국",
       "theme": "미중 디커플링, 중국 AI 굴기, 신흥시장 성장, 지정학 리스크 vs 저평가 기회",
-      "value_krw": 9456340,
-      "pnl_krw": -543660,
-      "return_pct": -5.44,
+      "value_krw": 9534600,
+      "pnl_krw": -465400,
+      "return_pct": -4.65,
       "metrics": {
-        "cum_return": -5.44,
+        "cum_return": -4.65,
         "mdd": -16.561,
-        "volatility": 25.8827,
-        "sharpe": -0.9231,
-        "beta": 1.193
+        "volatility": 25.743,
+        "sharpe": -0.8075,
+        "beta": 1.1944
       },
       "history": [
         {
@@ -2971,6 +2995,10 @@
         {
           "date": "2026-06-29",
           "value": 9405755
+        },
+        {
+          "date": "2026-07-01",
+          "value": 9478474
         }
       ],
       "holdings": [
@@ -2979,148 +3007,148 @@
           "name": "iShares MSCI China ETF",
           "weight": 0.25,
           "category": "etf",
-          "return_pct": -8.7168,
-          "pnl_krw": -217920
+          "return_pct": -8.2944,
+          "pnl_krw": -207360
         },
         {
           "ticker": "KWEB",
           "name": "KraneShares CSI China Internet ETF",
           "weight": 0.2,
           "category": "etf",
-          "return_pct": -14.0736,
-          "pnl_krw": -281472
+          "return_pct": -13.4724,
+          "pnl_krw": -269448
         },
         {
           "ticker": "FXI",
           "name": "iShares China Large-Cap ETF",
           "weight": 0.15,
           "category": "etf",
-          "return_pct": -10.2716,
-          "pnl_krw": -154074
+          "return_pct": -10.6112,
+          "pnl_krw": -159168
         },
         {
           "ticker": "EEM",
           "name": "iShares MSCI Emerging Markets ETF",
           "weight": 0.2,
           "category": "etf",
-          "return_pct": 19.3029,
-          "pnl_krw": 386058
+          "return_pct": 21.0368,
+          "pnl_krw": 420736
         },
         {
           "ticker": "BABA",
           "name": "Alibaba Group",
           "weight": 0.05,
           "category": "individual",
-          "return_pct": -23.8843,
-          "pnl_krw": -119422
+          "return_pct": -23.5097,
+          "pnl_krw": -117548
         },
         {
           "ticker": "BIDU",
           "name": "Baidu",
           "weight": 0.04,
           "category": "individual",
-          "return_pct": -0.311,
-          "pnl_krw": -1244
+          "return_pct": 1.564,
+          "pnl_krw": 6256
         },
         {
           "ticker": "PDD",
           "name": "PDD Holdings (Temu)",
           "weight": 0.04,
           "category": "individual",
-          "return_pct": -21.9696,
-          "pnl_krw": -87878
+          "return_pct": -22.2347,
+          "pnl_krw": -88939
         },
         {
           "ticker": "NIO",
           "name": "NIO",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": -13.6126,
-          "pnl_krw": -40838
+          "return_pct": -11.6928,
+          "pnl_krw": -35078
         },
         {
           "ticker": "XPEV",
           "name": "XPeng",
           "weight": 0.02,
           "category": "individual",
-          "return_pct": -32.1315,
-          "pnl_krw": -64263
+          "return_pct": -29.7985,
+          "pnl_krw": -59597
         },
         {
           "ticker": "SE",
           "name": "Sea Limited",
           "weight": 0.02,
           "category": "individual",
-          "return_pct": 18.6949,
-          "pnl_krw": 37390
+          "return_pct": 22.3726,
+          "pnl_krw": 44745
         }
       ],
       "news": [
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "MCHI",
           "title": "Technical Reactions to MCHI Trends in Macro Strategies - Stock Traders Daily",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUDBYazlZc0JIN1dTcndWT0VxWUZNdVdMa2haTzNMUnJ1cjZ1eW1yaXFDZlUydU5tcHJnT2tHTEtiNnE1aTV5ZzdNMlF2eFdkMWlHaHlaY3U1N25yZG5aZjZZR3VETUlORDEwb2RHZ3Eta25kU1dra2l0dV9DY0ozMV9VU1A3Q3QtdFp6eWNMamRPOEhHZ1ZTOUZGYlFCNmphQzhDV3c4aXhKMXdUZlJJZW00VHJEUTR0WDZlb0F5R0I3aVZscmJqRUc3TUt2WEE?oc=5",
           "source": "Stock Traders Daily"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "MCHI",
           "title": "MCHI: A Gateway To Chinese Equities (NASDAQ:MCHI) - Seeking Alpha",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBiT2NXdlUzOHRjcUI2MXRVV0lUS1JPQjFRTHVPNzZwMVJ4cXQ3a2NVSGpVNXYtVXU5cWZ2Wm9lcDBLOEJER1RlTlhCMHhOb0FFcWRKY0tGZ3pyM0E3ZkxxYVRxMWVIeTNmb1BUZ09rR0VQb0JKOTllSWs0a0hyZw?oc=5",
           "source": "Seeking Alpha"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "MCHI",
           "title": "Why MCHI, KWEB, and FXI Could Be Your Best Bets on China’s Recovery - 24/7 Wall St.",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYWprWVNNWXY3eUs0R2RwZlRZZ2tsLW81OEt0MWwwTmpJVUNBTkFjaWtBSVU3M1E4c3NwQ1h0NGhpN192OC1jSHJ5Ujl5QVUzY0w2Q3UxMXRueE0yRVZfWnF5bm1XY0oxM2pINTZ2cGVKX215amJTcmJDeUVsVkwtcXN4RzE0SWVSRWcwWEplWFotekd4Z1I3X281UWZlN3RJRDlmLXJ6SE9oSFl6?oc=5",
           "source": "24/7 Wall St."
         },
         {
-          "date": "2026-06-30",
-          "ticker": "KWEB",
-          "title": "BABA, BIDU, JD Stocks Rebound: Why Key China Tech ETF Notched Best Day In A Month - Stocktwits",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdlZEcmQ2TU52SmplU2lsV2hxOW9oeVoxcVlpQ1hqUEZKc1VwMjNSTC1QZXljaTJIOFhyUjJlU3I5RFM4NXlrZERubHd0cWpTLWIzeWJWUEpCSnJrd0xxQi1RWF9UVGJiRGZRRnFxazRJLUZEbFlaUXZSLUJPQlNxTVlCeGRidnFvRVh2QzVCbHR4U2VtN0QtWFFPQVdNTEVhTVpOTEMzc1JQQmpPaWl5cGVZanhiTzA5ay1WbEFKaVFoYnJjYTVDTW1TM1JpUmRkc2JVbUhYMkpwQQ?oc=5",
-          "source": "Stocktwits"
-        },
-        {
-          "date": "2026-06-30",
-          "ticker": "KWEB",
-          "title": "Understanding Momentum Shifts in (KWEB) - Stock Traders Daily",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdEx3V2lYOFJIOFVnTHdQbDBVcGw4cU9PSjFuaXRPSzBMMmhDQWFHR2lHb0tENGN5THpxVzlacC1VeG9pZnpsYTRlSUlnOE5manA1MVp2SWpWTWlRNWR4eUpwLWpYc2VfSW1tSnkwczFvT2JnY2hock5Fa2xTMWtOMU0tdGM0Q1lrTGNHY2FFT2ZQMmFFX0MyanRYVUVfMWxFQVVsX2pqWXRwakU2ekNSeHNOTTB2SVE?oc=5",
-          "source": "Stock Traders Daily"
-        },
-        {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "KWEB",
           "title": "KWEB China ETF: Navigating Volatility As Positive Catalysts Mount - KraneShares",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYjBJczFkXzllQnh1M3Rqb1B1UkhFa3ZZV29rWm55S2I4c1g4bUJ3T3UtR2VoYy1BTmN3eW5MaHlsMnR5aEZhTG9PNVo3WmwzYWhaMHQtRVI0QkxaeGhIXzR3RW1sdFkzd2Q2NFd1Vkp5R1prQk81LVVGLWpid0l4RV84ZUlkeTh1VnZkRmRvclYzem8?oc=5",
           "source": "KraneShares"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
+          "ticker": "KWEB",
+          "title": "BABA, BIDU, JD Stocks Rebound: Why Key China Tech ETF Notched Best Day In A Month - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdlZEcmQ2TU52SmplU2lsV2hxOW9oeVoxcVlpQ1hqUEZKc1VwMjNSTC1QZXljaTJIOFhyUjJlU3I5RFM4NXlrZERubHd0cWpTLWIzeWJWUEpCSnJrd0xxQi1RWF9UVGJiRGZRRnFxazRJLUZEbFlaUXZSLUJPQlNxTVlCeGRidnFvRVh2QzVCbHR4U2VtN0QtWFFPQVdNTEVhTVpOTEMzc1JQQmpPaWl5cGVZanhiTzA5ay1WbEFKaVFoYnJjYTVDTW1TM1JpUmRkc2JVbUhYMkpwQQ?oc=5",
+          "source": "Stocktwits"
+        },
+        {
+          "date": "2026-07-01",
+          "ticker": "KWEB",
+          "title": "Understanding Momentum Shifts in (KWEB) - Stock Traders Daily",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdEx3V2lYOFJIOFVnTHdQbDBVcGw4cU9PSjFuaXRPSzBMMmhDQWFHR2lHb0tENGN5THpxVzlacC1VeG9pZnpsYTRlSUlnOE5manA1MVp2SWpWTWlRNWR4eUpwLWpYc2VfSW1tSnkwczFvT2JnY2hock5Fa2xTMWtOMU0tdGM0Q1lrTGNHY2FFT2ZQMmFFX0MyanRYVUVfMWxFQVVsX2pqWXRwakU2ekNSeHNOTTB2SVE?oc=5",
+          "source": "Stock Traders Daily"
+        },
+        {
+          "date": "2026-07-01",
           "ticker": "FXI",
           "title": "Is Buying This FXI Dip a Smart Move? - Trefis",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSzcyTGg4TjA1YXZGMDBLZmVtejdUdklkRUZSS2xOd2RSYkhqcXRCVXRnMDlWUWwxU3ViX0picVEwWVA3S2NFa2tIdlliV2x4WVRuMjBackJrVHBleEpGd1ExQWJycVFiOFdwdnpsNDNlUS1zZlhBNnpHaWlleV9VS1o4VWpJUXRRa3RLdXJsU2FpdGkwMENfcGNHNA?oc=5",
           "source": "Trefis"
         },
         {
-          "date": "2026-06-30",
-          "ticker": "FXI",
-          "title": "Forget FXI. The South Korea Fund Beating China’s AI Trade Charges 19% Less - AOL.com",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ZN0x6VGNtRjlTVlpOVjAzM1B3RXMwbnZoWDE0amRhTjZndV9TQVpqZmg5RXdHRjJjb1B6NmR0VmQ2cXBQdEF5TU9ENmNmaXpmQUFGYU5JbWdtQnlDSlg0b3pTbFJyYUhiNENERWFOX3Itd3I5a2xIeXl6WQ?oc=5",
-          "source": "AOL.com"
-        },
-        {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "FXI",
           "title": "Understanding Momentum Shifts in (FXI) - Stock Traders Daily",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTXNPSmpLZGFzV2daUTF6UkQ2bWhrb1lRMDRzeG9BajRSakJLUExaWURWUkZrdktxa0hwZEE2aGF3bjctY1Yyd0RnVjJ3dHk5Zl9hX1hEREdHeHFJLXZBdk5RMUo0X096QnQyejhqMGR4NDE4OVNBcDh1VW5ydkdqUEdBRGR5ZTQtZ0VtSlNRdW5oT2pEOXM1eVF3RzhQdmxScVN2eGZER2hGSE5LZkJYQ3kxQ0xHQzFo?oc=5",
           "source": "Stock Traders Daily"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
+          "ticker": "FXI",
+          "title": "Forget FXI. The South Korea Fund Beating China’s AI Trade Charges 19% Less - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZFRsaTd2UzQ0Rm5ndXNqV1lidXB4WHVyM082X1dpZ2xZSHVldVllZW9JS0F0d3JEckFQRDNQQ1l0bXF2RktrMmNYcGtQNU5sM3liUzZSVlBIVDd4bnhpZUhlckZycURfaGNwcGRGLWtRZVcyU0VRUnNJY1FfckI3ODJsWUpXVW9PSWVLODFfQzNmcnlyazhB?oc=5",
+          "source": "Yahoo Finance"
+        },
+        {
+          "date": "2026-07-01",
           "ticker": "EEM",
           "title": "EEM 260626 50.00P (EEM260626P50000) Stock Options Chain | Quotes & News - Moomoo",
           "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxPV3Zwb1B5c1VSOFJhWVVDRVBQOWptNExyNVhlUExNYnZQWFlPcGswaXFVVXpTYkhiYlUtTF9FZDlCdVN3b1JhZnVvcXhXT0JvR0g3YU5pRlZGWW9ENkF1MURnQzZnakRQNTUxNVBxemlsck50Y3M2d3R1X2xuNGZhYlRwdGRGX1JXdHRjRmtiQWtoUC1HU09pLTEzM2lZdTBSa1M1YlpldVhLV2xNY0ZIRFZSUHpNUnIzN0w3N09Kc3QtUFRXemdza2lfVC1sRUlZalg5Nk5RQXlLay1lRmdydFJnb0V1ZFloU0NLaWpPWThpYW9XQS1QMDEyQlhBT1VKd19zT3BfMWpRVWZ5d2VnR2VaSnR1U3ZvU1hURUxBVm9nZnpmbGFtQUxELUdsVHJqOEE2VGtCYUdoQUFuZGZEajlPN1RNQk5uNVV3WGhTVmpPZXRQZEtDZHlOcDUzR2FTdW1GWWk3WDNHMHpUb2k2VWRNdFQ2WHhZdGxSNlFB?oc=5",
@@ -3131,15 +3159,15 @@
     "H": {
       "name": "소비재·경기순환",
       "theme": "경기 사이클, 필수소비재(방어주) vs 경기소비재(공격주), 인플레이션 소비 패턴",
-      "value_krw": 10670090,
-      "pnl_krw": 670090,
-      "return_pct": 6.7,
+      "value_krw": 10615960,
+      "pnl_krw": 615960,
+      "return_pct": 6.16,
       "metrics": {
-        "cum_return": 6.7,
+        "cum_return": 6.16,
         "mdd": -4.1766,
-        "volatility": 16.5478,
-        "sharpe": 1.3352,
-        "beta": 0.7094
+        "volatility": 16.4672,
+        "sharpe": 1.2061,
+        "beta": 0.6995
       },
       "history": [
         {
@@ -3413,6 +3441,10 @@
         {
           "date": "2026-06-29",
           "value": 10704646
+        },
+        {
+          "date": "2026-07-01",
+          "value": 10650499
         }
       ],
       "holdings": [
@@ -3421,148 +3453,148 @@
           "name": "Consumer Discretionary Select Sector SPDR ETF",
           "weight": 0.25,
           "category": "etf",
-          "return_pct": 6.7834,
-          "pnl_krw": 169585
+          "return_pct": 6.9292,
+          "pnl_krw": 173230
         },
         {
           "ticker": "XLP",
           "name": "Consumer Staples Select Sector SPDR ETF",
           "weight": 0.25,
           "category": "etf",
-          "return_pct": 4.0192,
-          "pnl_krw": 100480
+          "return_pct": 2.4165,
+          "pnl_krw": 60412
         },
         {
           "ticker": "VCR",
           "name": "Vanguard Consumer Discretionary ETF",
           "weight": 0.15,
           "category": "etf",
-          "return_pct": 9.5088,
-          "pnl_krw": 142632
+          "return_pct": 9.8856,
+          "pnl_krw": 148284
         },
         {
           "ticker": "IBUY",
           "name": "Amplify Online Retail ETF",
           "weight": 0.15,
           "category": "etf",
-          "return_pct": 13.2341,
-          "pnl_krw": 198512
+          "return_pct": 12.0204,
+          "pnl_krw": 180306
         },
         {
           "ticker": "AMZN",
           "name": "Amazon",
           "weight": 0.05,
           "category": "individual",
-          "return_pct": 15.8753,
-          "pnl_krw": 79376
+          "return_pct": 15.0068,
+          "pnl_krw": 75034
         },
         {
           "ticker": "COST",
           "name": "Costco Wholesale",
           "weight": 0.04,
           "category": "individual",
-          "return_pct": -2.787,
-          "pnl_krw": -11148
+          "return_pct": -3.9381,
+          "pnl_krw": -15752
         },
         {
           "ticker": "LVMUY",
           "name": "LVMH (ADR)",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": 6.3689,
-          "pnl_krw": 19107
+          "return_pct": 6.4066,
+          "pnl_krw": 19220
         },
         {
           "ticker": "MELI",
           "name": "MercadoLibre",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": 4.4112,
-          "pnl_krw": 13234
+          "return_pct": 5.2958,
+          "pnl_krw": 15887
         },
         {
           "ticker": "SHOP",
           "name": "Shopify",
           "weight": 0.03,
           "category": "individual",
-          "return_pct": -1.6703,
-          "pnl_krw": -5011
+          "return_pct": -1.6961,
+          "pnl_krw": -5088
         },
         {
           "ticker": "DPZ",
           "name": "Domino's Pizza",
           "weight": 0.02,
           "category": "individual",
-          "return_pct": -18.3399,
-          "pnl_krw": -36680
+          "return_pct": -17.7872,
+          "pnl_krw": -35574
         }
       ],
       "news": [
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
+          "ticker": "XLY",
+          "title": "Key Pivot Points for Consumer Discretionary Sector SPDR (XLY) - GuruFocus",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUE95US0xYzQ3RVd5eTdnRkVsbEdDdFVhY3diWl9Ua05tOVFTdi1uekRhSkdXWU5YT0ZtVmtwMEhLNmt5MElOOHc5YnE2NzY0TmVxOWkya1RZdEZpN2pFSzBib1pxUndzdUlUMnlVVGZOaWM4WVE3X18wNHFGV2J4Z2RmeHdnMFZ1YXFCb1JjN2xqT2VrRnJYWERIQ3ZZeVk?oc=5",
+          "source": "GuruFocus"
+        },
+        {
+          "date": "2026-07-01",
+          "ticker": "XLY",
+          "title": "Should You Invest in the State Street Consumer Discretionary Select Sector SPDR ETF (XLY)? - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdnJSSy05MGhHVFFVOWN5TktKM29lbWpDZURLTXdoLVltUFBuTEx1YlREd0R1S09wc2hEZFozaWp0eE9CMmlXYS1aeENkQXlvWGVmY3NsM0lEOTdJcWUwSTdYYV9meWZVU24xc0FqTjFEbTA3N25NMks5ZzZDeGZQTXphbXlrNEpVUDg5dXl3OWZNQXNVal9MbEN5RjMwSmFjdXE5RGNQS3dLUjQ?oc=5",
+          "source": "Yahoo Finance"
+        },
+        {
+          "date": "2026-07-01",
           "ticker": "XLY",
           "title": "Choosing Consumer Discretionary? Give XLY a Try - ETF Database",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVVBNbVNJX3dZN1psQzU5cDRXSDhLTHhKOWx3MXNiNzhCUWduX0dlcGJTTGJXVmpuMHQtYnJZQnVnOHU2UVIyc2FXTzIxRUM1T1dRcEdjeHQwUmFqWjMyRlVVaG9iYWlSdUZjX3NwSzJxeTkzS2IxdnlaMkhmamY3eXVXc1M3anlqakxn?oc=5",
           "source": "ETF Database"
         },
         {
-          "date": "2026-06-30",
-          "ticker": "XLY",
-          "title": "XLY 260626 109.00P (XLY260626P109000) Stock Options Chain | Quotes & News - Moomoo",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Kbk1lZGJHXzBGdHV6QzhVd2V5U1dPQml2TWwzQ2lKdXZCaVdvMkhPV1dGTF91ZVpZdkRhR1ZHTV9ZN3NtcGpPaFJzSXBGM0hxdWNsb2xIVVhCZFQtWXdv?oc=5",
-          "source": "Moomoo"
-        },
-        {
-          "date": "2026-06-30",
-          "ticker": "XLY",
-          "title": "(XLY) Price Dynamics and Execution-Aware Positioning - Stock Traders Daily",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSm5hb1NFRTZPd2t1bHRfSkZHUjVfUDZVTzhtQmtXcWt1a3NCZnZDd0g3bDdmN3F0YmYtZFIySWljY2lseU1qSlZGTHQ5VlFVVHlqQkRranZjc0QxdzRVWjhXQzltX2VBZnB2blM1V0tNUENMek5HNW1XRjF0N0gwY1J6UEVjbWFwRkxNUTZTTGdnZUp5YV9peDBHd1NnaDJyd3dlR0xWTklxdkVwN3NrcEJCZmpsbmR1LXJZaTF1TXBwaHRibDJzRnRR?oc=5",
-          "source": "Stock Traders Daily"
-        },
-        {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "XLP",
-          "title": "Consumer Staples Sector SPDR (XLP) Reports Key Pivot Points - GuruFocus",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMEdLNlEteGd3ZVpVM01DaXljbWg5LVo1WDFXeXl1WmUwU0wzVjFMRmdrN216RDczbDhXWXhiRVprYXZDRzdZS1pfeVZZMTBsQTJOVThqalZSTzFYZjdoMlRqWWhOaDkyTFc4Ym9jczY4TklibmMzUVlmTDVxWVlIS3JxSWFweGxTSnM1TF9wZnVsSUJiZnliYVR2Tmw?oc=5",
+          "title": "Key Pivot Points for Consumer Staples Sector SPDR (XLP) - GuruFocus",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ1BzclN0ckxhTEVBRGpPR192UHE3bTFZNzlMbFFlbFFOSXpJaUhZLVFNWHQzUDR0elYzelpsQ2ViZG94YUNTYVlNck5yNHNpT3VHeThUUnppNVNmNXlnZURJNUhsQVdJR1dyT0tzTlJFSG8xMGFHdWNZelh2VWtBTlBGbkN2bkNQSHB2ZzMzV25jUzJrdlRv?oc=5",
           "source": "GuruFocus"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "XLP",
           "title": "Is the Consumer Staples ETF (XLP) Still a Safe Haven in Today's Economy - Kavout | AI",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQnVtdjFQNld6ZC1WdGIwaFhDZHVWOUIwU1dmWVg1WHFvMWJUWWZtOWZVMkVodDloTE5Hd2dvRDRob1hhdE1yNTdyOF9sVV9FRVFIOXB1OUNqMVpCUHVEUk4yeV9xZFh5T2pVZFZ5a0xmOGdjTkI1a3BaM0ZlbnJUcTdrQWRKLWRMLXlnRnp4TlEyMWs0N2NQb3J0ZnFqQngxbC1Cc0c0OA?oc=5",
           "source": "Kavout | AI"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "XLP",
           "title": "Should You Invest in the State Street Consumer Staples Select Sector SPDR ETF (XLP)? - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZEpCT3E0MTFuT2stQlRYRkIyUDBjRTNObmU0M3FtZmFacUswR25xWTFyVjRWdFdpMUNFa1FCdlF1THB2Sl8xdTJwbmVPd09SU2RqUkU3N0VGcGlfNmJFWFNEb1ZtbS1ncEZEa1ZoY3p5elpiRlBoZlZYV3JfSDhadlpjd1lFNkxORUpweHFqT3AyWWVQWWZLZjU5Z1gxeGxDRXVV?oc=5",
           "source": "Yahoo Finance"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "VCR",
           "title": "Behavioral Patterns of VCR and Institutional Flows - Stock Traders Daily",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQejc5cXRoV0tHUThJaHNfMDljaDRCQ2xYY0VYOGpQbjhuWXZ0SWpDZEt6YkZRSHp2STRyTzVYa1JmTHc5VEpDZTN1YjBrOWxrUkVmbVdXLWRyU0xCZXNoc25wMi1yekpVcklnb0hZcF83Sl94Y01sMDNmWTVSN01nSFFmMEItXzcxUkxUcE1tWUhTb1YxMjFyMkhLeTRVcFowSUlNdzJQRHZFUXdEb0g5WlJXY1kzcXhKb2hNSXpRZURkaWUwS1NSRHFOUQ?oc=5",
           "source": "Stock Traders Daily"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "VCR",
           "title": "Should You Invest in the Vanguard Consumer Discretionary Index Fund ETF Shares (VCR)? - Yahoo Finance",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSjlNVnRhM3QxQm9TbHRzTmFQZ3JVQkRfQUI3a2RaaGhFM3dTTTc3T0FWQlJDXzUyVTFTbDVsSy1FX0FCUWZvU0hqVXlqT2JRb3llR2V6a2ZQZmktTVdXMDltNVBWYUJSMUFZd1RQYllKZWx3d2VSMmVkQzhrWVY2UV9vMWRqSkxkeTZocWlsdnRMMXYw?oc=5",
           "source": "Yahoo Finance"
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "VCR",
           "title": "Tesla’s 18.97% Weight in XLY Explains Why It Beat VCR by 9 Points in Five Years - 24/7 Wall St.",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcExEX3YzNDJsdGdlT3F1VDN4NGk3QlYzSU44ZGZoMmtOM25PTjJ6bmdWcTVEYVFwTmlONWZXLU5LTWZ3ckZfSTJEUm1kNmN4aFNYWnJPVk52YnZvYmJSV3JoNkJ6elp2V2NYbGVmUE9TNnJlQnQzem9hY04ydENxcFpuTFRCbVFaaC14V0U3aHJxTHpiZjJ3LWFicTRXS2F6aXVjeTlwaWhDakRIeDl0QVhQUThVMDN6X2ZUeW9R?oc=5",
           "source": "24/7 Wall St."
         },
         {
-          "date": "2026-06-30",
+          "date": "2026-07-01",
           "ticker": "IBUY",
           "title": "Trading the Move, Not the Narrative: (IBUY) Edition - Stock Traders Daily",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOWYzMG9zel9CcURXUXFQdTJPUldrLUZVRVB2WThIM0xEVVliSmlIcjQxTzlDZXduaGs3cE1fT3NLbnByT0VqbDU0N2k2TjJIeE56TzJ6M0NKclJPZUp4OGV4RHEtSXpvekNyLWJ2VDktUnRFSGc3SE9ha0RDeHloZW9ZTUpCU1dfMGZ2RW1GbDViSGplTGZ6cTJXMGhCSlpNZWxxYTZmUkNQcW9CTnBkQUdaUGkwSFMtWk5ZV0RxX0NEdEwzazZlMQ?oc=5",
